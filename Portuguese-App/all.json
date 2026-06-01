@@ -1,0 +1,16 @@
+{ "activite": "activite.json", 
+  "banquedemots": "banquedemots.json", 
+  "comparaison": "comparaison.json", 
+  "couleurs": "couleurs.json", 
+  "date": "date.json", 
+  "famille": "famille.json", 
+  "humeur": "humeur.json", 
+  "identite": "identite.json", 
+  "metiers": "metiers.json", 
+  "nombresordinaux": "nombresordinaux.json", 
+  "orientation": "orientation.json", 
+  "physiquemoral": "physiquemoral.json", 
+  "possessif": "possessif.json", 
+  "temps": "temps.json", 
+  "tout": "touslesmots.json" 
+}
