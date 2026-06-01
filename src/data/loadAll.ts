@@ -3,7 +3,7 @@ const BASE_URL =
 
 async function loadJSON(file: string) {
   try {
-    const res = await fetch(BASE_URL + file);
+    const res = await fetch(BASE_URL + file + "?v=" + Date.now());
 
     if (!res.ok) {
       throw new Error(`HTTP error ${res.status} for ${file}`);
