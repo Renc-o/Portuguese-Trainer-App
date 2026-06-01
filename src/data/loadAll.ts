@@ -1,5 +1,5 @@
 const BASE_URL =
-  "https://raw.githubusercontent.com/Renc-o/Portuguese-App/main/";
+  "https://raw.githubusercontent.com/Renc-o/Portuguese-App/0a48920cfe2deeb9c6c3294594e7fef75277fa33/src/data/";
 
 async function loadJSON(file: string) {
   try {
@@ -34,7 +34,8 @@ export async function loadAll() {
     physiquemoral: "physiquemoral.json",
     possessif: "possessif.json",
     temps: "temps.json",
-    touslesmots: "touslesmots.json"
+    touslesmots: "touslesmots.json",
+    corpshumain: "corpshumain.json"
   };
 
   const data: Record<string, any[]> = {};

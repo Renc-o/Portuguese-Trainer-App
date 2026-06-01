@@ -28,7 +28,8 @@ const categoryLabels: Record<string, string> = {
   orientation: "Orientation",
   physiquemoral: "Physique / Moral",
   possessif: "Possessif",
-  temps: "Temps"
+  temps: "Temps",
+  corpshumain: "Corps Humain"
 };
 
 const CATEGORY_ORDER = [
@@ -36,6 +37,7 @@ const CATEGORY_ORDER = [
   "activite",
   "banquedemots",
   "comparaison",
+  "corpshumain",
   "couleurs",
   "date",
   "famille",

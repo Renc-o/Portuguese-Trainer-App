@@ -4,11 +4,11 @@
     "fr": "Corpo"
   },
   {
-    "pt": "Cabe�a",
-    "fr": "T�te"
+    "pt": "Cabeça",
+    "fr": "Tête"
   },
   {
-    "pt": "Pesco�o",
+    "pt": "Pescoço",
     "fr": "Cou"
   },
   {
@@ -17,10 +17,10 @@
   },
   {
     "pt": "Costas",
-    "fr": "Derri�re"
+    "fr": "Derrière"
   },
   {
-    "pt": "Bra�o",
+    "pt": "Braço",
     "fr": "Bras"
   },
   {
@@ -44,7 +44,7 @@
     "fr": "Taille"
   },
   {
-    "pt": "N�dega",
+    "pt": "Nádega",
     "fr": "Fesses"
   },
   {
@@ -60,7 +60,7 @@
     "fr": "Genou"
   },
   {
-    "pt": "P�",
+    "pt": "Pé",
     "fr": "Pied"
   }
 ]
