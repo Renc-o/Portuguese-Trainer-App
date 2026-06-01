@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "portugais-app",
+    "name": "Portuguese Trainer",
     "slug": "portugais-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/iconPT.jpg",
     "scheme": "portugaisapp",
     "userInterfaceStyle": "automatic",
     "ios": {
@@ -13,11 +13,12 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/images/iconPT.jpg",
+        "backgroundImage": "./assets/images/iconPT.jpg",
+        "monochromeImage": "./assets/images/iconPT.jpg"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.renc_o.portugaisapp"
     },
     "web": {
       "output": "static",
@@ -34,7 +35,8 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "expo-asset"
     ],
     "experiments": {
       "typedRoutes": true,

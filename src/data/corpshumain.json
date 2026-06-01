@@ -1,0 +1,66 @@
+[
+  {
+    "pt": "Corps",
+    "fr": "Corpo"
+  },
+  {
+    "pt": "Cabe�a",
+    "fr": "T�te"
+  },
+  {
+    "pt": "Pesco�o",
+    "fr": "Cou"
+  },
+  {
+    "pt": "Ombro",
+    "fr": "�paule"
+  },
+  {
+    "pt": "Costas",
+    "fr": "Derri�re"
+  },
+  {
+    "pt": "Bra�o",
+    "fr": "Bras"
+  },
+  {
+    "pt": "Axila",
+    "fr": "Aiselle"
+  },
+  {
+    "pt": "Peito",
+    "fr": "Poitrine"
+  },
+  {
+    "pt": "Cotovelo",
+    "fr": "Coude"
+  },
+  {
+    "pt": "Barriga",
+    "fr": "Ventre"
+  },
+  {
+    "pt": "Cintura",
+    "fr": "Taille"
+  },
+  {
+    "pt": "N�dega",
+    "fr": "Fesses"
+  },
+  {
+    "pt": "Perna",
+    "fr": "Jambe"
+  },
+  {
+    "pt": "Quadril",
+    "fr": "Hanche"
+  },
+  {
+    "pt": "Joelho",
+    "fr": "Genou"
+  },
+  {
+    "pt": "P�",
+    "fr": "Pied"
+  }
+]

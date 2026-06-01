@@ -1,98 +1,113 @@
-import * as Device from 'expo-device';
-import { Platform, StyleSheet } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { router } from "expo-router";
+import {
+    KeyboardAvoidingView,
+    Platform,
+    ScrollView,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    View,
+    useColorScheme
+} from "react-native";
 
-import { AnimatedIcon } from '@/components/animated-icon';
-import { HintRow } from '@/components/hint-row';
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-import { WebBadge } from '@/components/web-badge';
-import { BottomTabInset, MaxContentWidth, Spacing } from '@/constants/theme';
+export default function Home() {
 
-function getDevMenuHint() {
-  if (Platform.OS === 'web') {
-    return <ThemedText type="small">use browser devtools</ThemedText>;
-  }
-  if (Device.isDevice) {
+    // 🌗 MODE SOMBRE AUTO
+    const scheme = useColorScheme();
+    const isDark = scheme === "dark";
+
+    const colors = {
+    background: isDark ? "#121212" : "#ffffff",
+    text: isDark ? "#ffffff" : "#000000",
+    card: isDark ? "#1e1e1e" : "#f2f2f2",
+    input: isDark ? "#2a2a2a" : "#ffffff",
+    border: isDark ? "#444" : "#ccc",
+    button: isDark ? "#444" : "#ccc",
+    buttonBg: isDark ? "#2a2a2a" : "#e6e6e6"
+    };
+
     return (
-      <ThemedText type="small">
-        shake device or press <ThemedText type="code">m</ThemedText> in terminal
-      </ThemedText>
-    );
-  }
-  const shortcut = Platform.OS === 'android' ? 'cmd+m (or ctrl+m)' : 'cmd+d';
-  return (
-    <ThemedText type="small">
-      press <ThemedText type="code">{shortcut}</ThemedText>
-    </ThemedText>
-  );
-}
+    <KeyboardAvoidingView
+          style={{ flex: 1, backgroundColor: colors.background }}
+          behavior={Platform.OS === "ios" ? "padding" : "height"}
+    >
+        <ScrollView
+                contentContainerStyle={[styles.container, { backgroundColor: colors.background }]}
+                keyboardShouldPersistTaps="handled"
+        >
+            <Text
+            style={{
+                fontSize: 28,
+                marginBottom: 20,
+                color: colors.text,
+            }}
+            >
+            Portugais 🇵🇹
+            </Text>
+    <View
+      style={{
+        flexDirection: "row",
+        width: "90%",
+        marginTop: 1,
+      }}
+    >
+      <TouchableOpacity
+        onPress={() => router.push("/portuguese-to-french")}
+        style={{
+            flex: 1,
+            padding: 12,
+            borderRadius: 100,
+            marginRight: 10, 
+            backgroundColor: colors.buttonBg
+      }}>
+        <Text
+            style={{
+                fontSize: 28,
+                color: colors.text,
+                fontWeight: "600",
+                textAlign: "center"
+            }}
+            >
+            🇵🇹 ➡️ 🇫🇷
+        </Text>
+      </TouchableOpacity>
 
-export default function HomeScreen() {
-  return (
-    <ThemedView style={styles.container}>
-      <SafeAreaView style={styles.safeArea}>
-        <ThemedView style={styles.heroSection}>
-          <AnimatedIcon />
-          <ThemedText type="title" style={styles.title}>
-            Welcome to&nbsp;Expo
-          </ThemedText>
-        </ThemedView>
-
-        <ThemedText type="code" style={styles.code}>
-          get started
-        </ThemedText>
-
-        <ThemedView type="backgroundElement" style={styles.stepContainer}>
-          <HintRow
-            title="Try editing"
-            hint={<ThemedText type="code">src/app/index.tsx</ThemedText>}
-          />
-          <HintRow title="Dev tools" hint={getDevMenuHint()} />
-          <HintRow
-            title="Fresh start"
-            hint={<ThemedText type="code">npm run reset-project</ThemedText>}
-          />
-        </ThemedView>
-
-        {Platform.OS === 'web' && <WebBadge />}
-      </SafeAreaView>
-    </ThemedView>
+      <TouchableOpacity
+            onPress={() => router.push("/french-to-portuguese")}
+            style={{
+            flex: 1,
+            padding: 12,
+            borderRadius: 100,
+            marginRight: 10, 
+            backgroundColor: colors.buttonBg
+      }}>
+        <Text
+            style={{
+                fontSize: 28,
+                color: colors.text,
+                fontWeight: "600",
+                textAlign: "center"
+            }}
+            >
+            🇫🇷 ➡️ 🇵🇹
+        </Text>
+    </TouchableOpacity>
+    </View>
+    </ScrollView>
+    </KeyboardAvoidingView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    flexDirection: 'row',
-  },
-  safeArea: {
-    flex: 1,
-    paddingHorizontal: Spacing.four,
-    alignItems: 'center',
-    gap: Spacing.three,
-    paddingBottom: BottomTabInset + Spacing.three,
-    maxWidth: MaxContentWidth,
-  },
-  heroSection: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    flex: 1,
-    paddingHorizontal: Spacing.four,
-    gap: Spacing.four,
-  },
-  title: {
-    textAlign: 'center',
-  },
-  code: {
-    textTransform: 'uppercase',
-  },
-  stepContainer: {
-    gap: Spacing.three,
-    alignSelf: 'stretch',
-    paddingHorizontal: Spacing.three,
-    paddingVertical: Spacing.four,
-    borderRadius: Spacing.four,
-  },
+    container: {
+        padding: 20,
+        paddingTop: 160,
+        alignItems: "center"
+    },
+
+    buttonsRow: {
+        flexDirection: "row",
+        width: "90%",
+        marginTop: 10
+    },
 });
