@@ -1,5 +1,5 @@
 const BASE_URL =
-  "https://raw.githubusercontent.com/Renc-o/Portuguese-Trainer-App/refs/heads/main/src/data/";
+  "https://raw.githubusercontent.com/Renc-o/Portuguese-Trainer-App/main/src/data/";
 
 async function loadJSON(file: string) {
   try {
