@@ -1,11 +1,14 @@
 import { useMemo, useState } from "react";
 import {
+  KeyboardAvoidingView,
+  Platform,
   ScrollView,
   StyleSheet,
   Text,
   TextInput,
   TouchableOpacity,
   View,
+  useColorScheme
 } from "react-native";
 
 import vocabulary from "../data/touslesmots.json";
@@ -21,6 +24,7 @@ import {
 } from "../services/dailyQuiz";
 
 import ResultsTable from "../components/resultsTable";
+
 
 export default function DailyQuiz() {
   const questions = useMemo(
@@ -71,12 +75,99 @@ export default function DailyQuiz() {
     answers
   );
 
+  // 🌗 Mode sombre automatique
+  const scheme = useColorScheme();
+  const isDark = scheme === "dark";
+
+  const colors = {
+    background: isDark ? "#121212" : "#ffffff",
+    text: isDark ? "#ffffff" : "#000000",
+    card: isDark ? "#1e1e1e" : "#f2f2f2",
+    input: isDark ? "#2a2a2a" : "#ffffff",
+    border: isDark ? "#444" : "#ccc",
+    button: isDark ? "#444" : "#ccc",
+    buttonBg: isDark ? "#2a2a2a" : "#e6e6e6",
+  };
+
+  const styles = StyleSheet.create({
+  container: {
+    flexGrow: 1,
+    padding: 20,
+    marginTop: 60,
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: "700",
+    marginBottom: 10,
+    color: colors.text
+  },
+  subtitle: {
+    fontSize: 16,
+    marginBottom: 20,
+    color: colors.text
+  },
+  card: {
+    marginBottom: 20,
+    padding: 15,
+    borderRadius: 10,
+    backgroundColor: colors.background,
+  },
+  questionNumber: {
+    fontWeight: "700",
+    color: colors.text
+  },
+  direction: {
+    marginTop: 5,
+    color: "gray",
+  },
+  word: {
+    fontSize: 22,
+    marginTop: 10,
+    fontWeight: "600",
+    color: colors.text
+  },
+  input: {
+    marginTop: 10,
+    borderWidth: 1,
+    borderColor: "#ccc",
+    padding: 10,
+    borderRadius: 8,
+    color: colors.text
+  },
+  button: {
+    marginBottom: 60,
+    backgroundColor: "#333",
+    padding: 15,
+    borderRadius: 10,
+    alignItems: "center",
+  },
+  buttonText: {
+    color: "white",
+    fontWeight: "700",
+  },
+});
+
   if (submitted) {
     return <ResultsTable summary={summary} />;
   }
 
   return (
-    <ScrollView style={styles.container}>
+  <KeyboardAvoidingView
+    style={{
+      flex: 1,
+      backgroundColor: colors.background,
+    }}
+    behavior={Platform.OS === "ios" ? "padding" : "height"}
+    keyboardVerticalOffset={1}
+  >
+    <ScrollView
+      style={{ 
+        flex: 1,
+        backgroundColor: colors.background
+      }}
+      contentContainerStyle={styles.container}
+      keyboardShouldPersistTaps="handled"
+    >
       <Text style={styles.title}>
         Quiz du jour
       </Text>
@@ -104,6 +195,9 @@ export default function DailyQuiz() {
           <TextInput
             style={styles.input}
             placeholder="Ta réponse"
+            placeholderTextColor={
+              isDark ? "#999999" : "#666666"
+            }
             onChangeText={(text) =>
               updateAnswer(question.id, text)
             }
@@ -120,56 +214,7 @@ export default function DailyQuiz() {
         </Text>
       </TouchableOpacity>
     </ScrollView>
-  );
+  </KeyboardAvoidingView>
+);
 }
 
-const styles = StyleSheet.create({
-  container: {
-    padding: 20,
-  },
-  title: {
-    fontSize: 28,
-    fontWeight: "700",
-    marginBottom: 10,
-  },
-  subtitle: {
-    fontSize: 16,
-    marginBottom: 20,
-  },
-  card: {
-    marginBottom: 20,
-    padding: 15,
-    borderRadius: 10,
-    backgroundColor: "#f2f2f2",
-  },
-  questionNumber: {
-    fontWeight: "700",
-  },
-  direction: {
-    marginTop: 5,
-    color: "gray",
-  },
-  word: {
-    fontSize: 22,
-    marginTop: 10,
-    fontWeight: "600",
-  },
-  input: {
-    marginTop: 10,
-    borderWidth: 1,
-    borderColor: "#ccc",
-    padding: 10,
-    borderRadius: 8,
-  },
-  button: {
-    marginTop: 20,
-    backgroundColor: "#333",
-    padding: 15,
-    borderRadius: 10,
-    alignItems: "center",
-  },
-  buttonText: {
-    color: "white",
-    fontWeight: "700",
-  },
-});
