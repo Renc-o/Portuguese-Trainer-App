@@ -17,7 +17,7 @@ export default function Home() {
   useEffect(() => {
     checkForUpdates();
   }, []);
-  
+
   // 🌗 Mode sombre automatique
   const scheme = useColorScheme();
   const isDark = scheme === "dark";
@@ -120,6 +120,33 @@ export default function Home() {
               🎯 Daily Quiz
             </Text>
           </TouchableOpacity>
+
+        {/* Bouton Suggestion */}
+          <View
+          style={{
+            width: "100%",
+            marginTop: 15,
+          }}
+          >
+          <TouchableOpacity
+            onPress={() => router.push("/suggestion-mots")}
+            style={[
+              styles.button,
+              {
+                backgroundColor: colors.buttonBg,
+              },
+            ]}
+          >
+            <Text
+              style={[
+                styles.buttonText,
+                { color: colors.text },
+              ]}
+            >
+              Suggestions
+            </Text>
+          </TouchableOpacity>
+          </View>
         </View>
       </ScrollView>
     </KeyboardAvoidingView>

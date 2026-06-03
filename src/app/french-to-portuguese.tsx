@@ -27,10 +27,10 @@ export default function App() {
   const [input, setInput] = useState("");
   const [result, setResult] = useState<string | null>(null);
   const check = () => {
-  const user = input.trim().toLowerCase();
-  const correct = (word.fr ?? "").toLowerCase();
+    const user = input.trim().toLowerCase();
+  const correct = (word.pt ?? "").toLowerCase();
   const diff = countDiff(user, correct);
-    setResult(diff <= 1 ? "✅ Correct !" : `❌ Faux → ${word.fr}`);
+    setResult(diff <= 1 ? "✅ Correct !" : `❌ Faux → ${word.pt}`);
       };
       const next = () => {
       setInput("");
@@ -41,7 +41,11 @@ export default function App() {
     };
   const categoryLabels = (() => {
     const labels: Record<string, string> = {
-      touslesmots: "Tout"
+      touslesmots: "Tout",
+      banquedemots: "Banque de Mots",
+      corpshumain: "Corps Humain",
+      nombresordinaux: "Nombres Ordinaux",
+      physiquemoral: "Physique et Moral"
     };
     data.forEach((word) => {
       if (word.category && !labels[word.category]) {
@@ -106,7 +110,7 @@ export default function App() {
     setResult(null);
   };
 
-  const word = shuffled[index] ?? { pt: "", fr: "" };
+  const word = shuffled[index] ?? { fr: "", pt: ""};
   function countDiff(a: string, b: string) {
     let diff = 0;
     const len = Math.max(a.length, b.length);
@@ -128,7 +132,7 @@ export default function App() {
             keyboardShouldPersistTaps="handled"
           >
             <Text style={[styles.title, { color: colors.text }]}>
-              🇵🇹 Portugais vers Français 🇫🇷
+              🇫🇷 Français vers Portugais 🇵🇹
             </Text>
     
             {/* category */}
@@ -150,7 +154,7 @@ export default function App() {
     
             {/* MOT */}
             <Text style={[styles.word, { color: colors.text }]}>
-              {word.pt}
+              {word.fr}
             </Text>
     
             {/* INPUT */}
