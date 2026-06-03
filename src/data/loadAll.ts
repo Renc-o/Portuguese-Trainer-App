@@ -6,46 +6,19 @@ async function loadJSON(file: string) {
     const res = await fetch(BASE_URL + file + "?v=" + Date.now());
 
     if (!res.ok) {
-      throw new Error(`HTTP error ${res.status} for ${file}`);
+      throw new Error(`HTTP error ${res.status}`);
     }
 
     return await res.json();
   } catch (err) {
-    console.log("❌ Erreur chargement JSON :", file);
-    console.log(err);
-
-    return []; // fallback pour éviter crash app
+    console.log("❌ Erreur chargement JSON :", file, err);
+    return [];
   }
 }
 
 export async function loadAll() {
-  const files = {
-    activite: "activite.json",
-    banquedemots: "banquedemots.json",
-    comparaison: "comparaison.json",
-    couleurs: "couleurs.json",
-    date: "date.json",
-    famille: "famille.json",
-    humeur: "humeur.json",
-    identite: "identite.json",
-    metiers: "metiers.json",
-    nombresordinaux: "nombresordinaux.json",
-    orientation: "orientation.json",
-    physiquemoral: "physiquemoral.json",
-    possessif: "possessif.json",
-    temps: "temps.json",
-    touslesmots: "touslesmots.json",
-    corpshumain: "corpshumain.json"
-  };
+  const json = await loadJSON(BASE_URL + "words.json");
 
-  const data: Record<string, any[]> = {};
-
-  await Promise.all(
-    Object.entries(files).map(async ([key, file]) => {
-      const json = await loadJSON(file);
-      data[key] = Array.isArray(json) ? json : [];
-    })
-  );
-
-  return data;
+  // IMPORTANT : on s'assure que c'est un tableau
+  return Array.isArray(json) ? json : [];
 }

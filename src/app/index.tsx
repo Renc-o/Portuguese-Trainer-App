@@ -1,16 +1,23 @@
 import { router } from "expo-router";
+import { useEffect } from "react";
 import {
-    KeyboardAvoidingView,
-    Platform,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TouchableOpacity,
-    View,
-    useColorScheme,
+  KeyboardAvoidingView,
+  Platform,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+  useColorScheme
 } from "react-native";
+import { checkForUpdates } from "../services/update";
+
 
 export default function Home() {
+  useEffect(() => {
+    checkForUpdates();
+  }, []);
+  
   // 🌗 Mode sombre automatique
   const scheme = useColorScheme();
   const isDark = scheme === "dark";
@@ -24,7 +31,7 @@ export default function Home() {
     button: isDark ? "#444" : "#ccc",
     buttonBg: isDark ? "#2a2a2a" : "#e6e6e6",
   };
-
+  
   return (
     <KeyboardAvoidingView
       style={{

@@ -11,7 +11,7 @@ import {
   useColorScheme
 } from "react-native";
 
-import vocabulary from "../data/touslesmots.json";
+import vocabulary from "../data/words.json";
 
 import {
   QuizAnswer,

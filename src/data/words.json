@@ -1,0 +1,1222 @@
+[
+  {
+    "pt": "Andar de bicicleta",
+    "fr": "Faire du v�lo",
+    "category": "activite"
+  },
+  {
+    "pt": "Cantar",
+    "fr": "Chanter",
+    "category": "activite"
+  },
+  {
+    "pt": "Dan�ar",
+    "fr": "Danser",
+    "category": "activite"
+  },
+  {
+    "pt": "Desenhar",
+    "fr": "Dessiner",
+    "category": "activite"
+  },
+  {
+    "pt": "Ler",
+    "fr": "Lire",
+    "category": "activite"
+  },
+  {
+    "pt": "Passear",
+    "fr": "Se promener",
+    "category": "activite"
+  },
+  {
+    "pt": "Praticar desporto",
+    "fr": "Faire du sport",
+    "category": "activite"
+  },
+  {
+    "pt": "Ver televis�o",
+    "fr": "Regarder la t�l�",
+    "category": "activite"
+  },
+  {
+    "pt": "Brincar",
+    "fr": "Jouer/s'amuser",
+    "category": "activite"
+  },
+  {
+    "pt": "Jogar futebol",
+    "fr": "Jouer au foot",
+    "category": "activite"
+  },
+  {
+    "pt": "Tocar guitara/piano",
+    "fr": "Jouer de Ia guitare/piano",
+    "category": "activite"
+  },
+  {
+    "pt": "Comprar",
+    "fr": "Acheter",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Estudar",
+    "fr": "Etudier",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Interessar-se",
+    "fr": "S'intéresser",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Morar",
+    "fr": "Habiter",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Trabalhar",
+    "fr": "Travailler",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Sim",
+    "fr": "Oui",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Não",
+    "fr": "Non",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Mas",
+    "fr": "Plus",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Muito",
+    "fr": "Très, beaucoup",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Também",
+    "fr": "Aussi",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Um pouco",
+    "fr": "Un peu",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Levantar-se",
+    "fr": "Se lever",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Passar-se",
+    "fr": "Se passer",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Situar-se",
+    "fr": "Se situer",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Lembrar-se",
+    "fr": "se rappeler",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Chuvar",
+    "fr": "Pleuvoir",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Morar",
+    "fr": "Habiter",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Sede",
+    "fr": "Soif",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Ou seja",
+    "fr": "Ou plutôt",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Mais� (do) que",
+    "fr": "Plus que",
+    "category": "comparaison"
+  },
+  {
+    "pt": "Menos... (do) que",
+    "fr": "Moins que",
+    "category": "comparaison"
+  },
+  {
+    "pt": "T�o... como",
+    "fr": "Autant que",
+    "category": "comparaison"
+  },
+  {
+    "pt": "Bom ? Melhor",
+    "fr": "Mieux/Meilleur",
+    "category": "comparaison"
+  },
+  {
+    "pt": "Mau/mal ? Pior",
+    "fr": "Pire",
+    "category": "comparaison"
+  },
+  {
+    "pt": "Grande ? Maior",
+    "fr": "Plus grand",
+    "category": "comparaison"
+  },
+  {
+    "pt": "Pequeno ? Mais pequeno",
+    "fr": "Plus petit",
+    "category": "comparaison"
+  },
+  {
+    "pt": "Corpo",
+    "fr": "Corps",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Cabeça",
+    "fr": "Tête",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Pescoço",
+    "fr": "Cou",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Ombro",
+    "fr": "�paule",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Costas",
+    "fr": "Derrière",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Braço",
+    "fr": "Bras",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Axila",
+    "fr": "Aiselle",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Peito",
+    "fr": "Poitrine",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Cotovelo",
+    "fr": "Coude",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Barriga",
+    "fr": "Ventre",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Cintura",
+    "fr": "Taille",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Nádega",
+    "fr": "Fesses",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Perna",
+    "fr": "Jambe",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Quadril",
+    "fr": "Hanche",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Joelho",
+    "fr": "Genou",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Pé",
+    "fr": "Pied",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Amarelo",
+    "fr": "Jaune",
+    "category": "couleurs"
+  },
+  {
+    "pt": "Azul",
+    "fr": "Bleu",
+    "category": "couleurs"
+  },
+  {
+    "pt": "Branco",
+    "fr": "Blanc",
+    "category": "couleurs"
+  },
+  {
+    "pt": "Castanho",
+    "fr": "Marron",
+    "category": "couleurs"
+  },
+  {
+    "pt": "Cinzento",
+    "fr": "Gris",
+    "category": "couleurs"
+  },
+  {
+    "pt": "Larenja",
+    "fr": "Orange",
+    "category": "couleurs"
+  },
+  {
+    "pt": "Rosa",
+    "fr": "Rose",
+    "category": "couleurs"
+  },
+  {
+    "pt": "Preto",
+    "fr": "Noir",
+    "category": "couleurs"
+  },
+  {
+    "pt": "Verde",
+    "fr": "Vert",
+    "category": "couleurs"
+  },
+  {
+    "pt": "Vermelho",
+    "fr": "Rouge",
+    "category": "couleurs"
+  },
+  {
+    "pt": "Segunda-feira",
+    "fr": "Lundi",
+    "category": "date"
+  },
+  {
+    "pt": "Terça-feira",
+    "fr": "Mardi",
+    "category": "date"
+  },
+  {
+    "pt": "Quarta-feira",
+    "fr": "Mercredi",
+    "category": "date"
+  },
+  {
+    "pt": "Quinta-feira",
+    "fr": "Jeudi",
+    "category": "date"
+  },
+  {
+    "pt": "Sexta-feira",
+    "fr": "Vendredi",
+    "category": "date"
+  },
+  {
+    "pt": "Sábado",
+    "fr": "Samedi",
+    "category": "date"
+  },
+  {
+    "pt": "Domingo",
+    "fr": "Dimanche",
+    "category": "date"
+  },
+  {
+    "pt": "Janeiro",
+    "fr": "Janvier",
+    "category": "date"
+  },
+  {
+    "pt": "Fevereiro",
+    "fr": "Février",
+    "category": "date"
+  },
+  {
+    "pt": "Marzo",
+    "fr": "Mars",
+    "category": "date"
+  },
+  {
+    "pt": "Abril",
+    "fr": "Avril",
+    "category": "date"
+  },
+  {
+    "pt": "Maio",
+    "fr": "Mai",
+    "category": "date"
+  },
+  {
+    "pt": "Junho",
+    "fr": "Juin",
+    "category": "date"
+  },
+  {
+    "pt": "Julho",
+    "fr": "Juillet",
+    "category": "date"
+  },
+  {
+    "pt": "Agosto",
+    "fr": "Août",
+    "category": "date"
+  },
+  {
+    "pt": "Setembro",
+    "fr": "Septembre",
+    "category": "date"
+  },
+  {
+    "pt": "Outubro",
+    "fr": "Octobre",
+    "category": "date"
+  },
+  {
+    "pt": "Novembro",
+    "fr": "Novembre",
+    "category": "date"
+  },
+  {
+    "pt": "Dezembro",
+    "fr": "Décembre",
+    "category": "date"
+  },
+  {
+    "pt": "Grand-pere /Grand-mere/Grands-parents",
+    "fr": "Av�/Av� /Av�s",
+    "category": "famille"
+  },
+  {
+    "pt": "Cunhado/ a",
+    "fr": "Beau-fr�re /Belle-soeur",
+    "category": "famille"
+  },
+  {
+    "pt": "Filho /Filha/Filhos",
+    "fr": "Fils/Fille/Enfants",
+    "category": "famille"
+  },
+  {
+    "pt": "Genro/Nora",
+    "fr": "Gendre/Belle-fille",
+    "category": "famille"
+  },
+  {
+    "pt": "Irm�o /Irma /Irm�os",
+    "fr": "Fr�re/ Soeur/ Fr�res et soeurs",
+    "category": "famille"
+  },
+  {
+    "pt": "Neto/Neta /Netos",
+    "fr": "Petit-fils/Petite-fille/Petits-enfants",
+    "category": "famille"
+  },
+  {
+    "pt": "Pai/M�e /Pais",
+    "fr": "P�re/M�re/Parents",
+    "category": "famille"
+  },
+  {
+    "pt": "Primo/Prima/Primos",
+    "fr": "Cousin/Cousine /Cousins et cousines",
+    "category": "famille"
+  },
+  {
+    "pt": "Sobrinho /Sobrinha",
+    "fr": "Neveu/Ni�ce",
+    "category": "famille"
+  },
+  {
+    "pt": "Sogro/Sogra",
+    "fr": "Beau-p�re /Belle-m�re",
+    "category": "famille"
+  },
+  {
+    "pt": "Tio/Tia",
+    "fr": "Oncle/Tante",
+    "category": "famille"
+  },
+  {
+    "pt": "Aborrecido",
+    "fr": "Contrari�",
+    "category": "humeur"
+  },
+  {
+    "pt": "Animado",
+    "fr": "Enjou�",
+    "category": "humeur"
+  },
+  {
+    "pt": "Apaixanado",
+    "fr": "Amoureux",
+    "category": "humeur"
+  },
+  {
+    "pt": "Calmo",
+    "fr": "Calme",
+    "category": "humeur"
+  },
+  {
+    "pt": "Cansado",
+    "fr": "Fatigu�",
+    "category": "humeur"
+  },
+  {
+    "pt": "Concentrado",
+    "fr": "Concentr�",
+    "category": "humeur"
+  },
+  {
+    "pt": "Contente",
+    "fr": "Content",
+    "category": "humeur"
+  },
+  {
+    "pt": "Doente",
+    "fr": "Malade",
+    "category": "humeur"
+  },
+  {
+    "pt": "Feliz",
+    "fr": "Heureux",
+    "category": "humeur"
+  },
+  {
+    "pt": "Limpo",
+    "fr": "Propre",
+    "category": "humeur"
+  },
+  {
+    "pt": "Quente",
+    "fr": "Chaud",
+    "category": "humeur"
+  },
+  {
+    "pt": "Zangado",
+    "fr": "F�ch�",
+    "category": "humeur"
+  },
+  {
+    "pt": "Satisfeito",
+    "fr": "Satisfait",
+    "category": "humeur"
+  },
+  {
+    "pt": "Desanimado",
+    "fr": "D�courag�",
+    "category": "humeur"
+  },
+  {
+    "pt": "Indiferente",
+    "fr": "Indifferent",
+    "category": "humeur"
+  },
+  {
+    "pt": "Nervoso",
+    "fr": "Nerveux",
+    "category": "humeur"
+  },
+  {
+    "pt": "Descansado",
+    "fr": "Repos�",
+    "category": "humeur"
+  },
+  {
+    "pt": "Distraido",
+    "fr": "Distrait",
+    "category": "humeur"
+  },
+  {
+    "pt": "Triste",
+    "fr": "Triste",
+    "category": "humeur"
+  },
+  {
+    "pt": "Saudavel",
+    "fr": "En bonne sant�",
+    "category": "humeur"
+  },
+  {
+    "pt": "Infeliz",
+    "fr": "Malheureux",
+    "category": "humeur"
+  },
+  {
+    "pt": "Sujo",
+    "fr": "Sale",
+    "category": "humeur"
+  },
+  {
+    "pt": "Frio",
+    "fr": "Froid",
+    "category": "humeur"
+  },
+  {
+    "pt": "Alegre",
+    "fr": "Joyeux",
+    "category": "humeur"
+  },
+  {
+    "pt": "Apelido",
+    "fr": "Nom de famille",
+    "category": "identite"
+  },
+  {
+    "pt": "Data / local de nascimento",
+    "fr": "Date/lieu de naissance",
+    "category": "identite"
+  },
+  {
+    "pt": "Idade",
+    "fr": "Age",
+    "category": "identite"
+  },
+  {
+    "pt": "Morada",
+    "fr": "Adresse",
+    "category": "identite"
+  },
+  {
+    "pt": "Nome",
+    "fr": "Pr�nom",
+    "category": "identite"
+  },
+  {
+    "pt": "Cadaso(a)",
+    "fr": "Mari�(e)",
+    "category": "identite"
+  },
+  {
+    "pt": "Marido",
+    "fr": "Mari",
+    "category": "identite"
+  },
+  {
+    "pt": "Mulher",
+    "fr": "Femme",
+    "category": "identite"
+  },
+  {
+    "pt": "Namorado(a)",
+    "fr": "Amoureux(se)",
+    "category": "identite"
+  },
+  {
+    "pt": "Solteiro(a)",
+    "fr": "C�libataire",
+    "category": "identite"
+  },
+  {
+    "pt": "Profiss�o / profiss�es",
+    "fr": "M�tier(s)",
+    "category": "identite"
+  },
+  {
+    "pt": "Enfermeiro(a)",
+    "fr": "Infirmier(e)",
+    "category": "identite"
+  },
+  {
+    "pt": "Estudante",
+    "fr": "Etudiant",
+    "category": "identite"
+  },
+  {
+    "pt": "A minha nacionalidade",
+    "fr": "Ma nationalit�",
+    "category": "identite"
+  },
+  {
+    "pt": "A tua nacionalidade",
+    "fr": "Ta nationalit�",
+    "category": "identite"
+  },
+  {
+    "pt": "A sua nacionalidade",
+    "fr": "Sa/votre nationalit�",
+    "category": "identite"
+  },
+  {
+    "pt": "Argelino(a)",
+    "fr": "Alg�rien(e)",
+    "category": "identite"
+  },
+  {
+    "pt": "Alem�o / alem�",
+    "fr": "Allemand(e)",
+    "category": "identite"
+  },
+  {
+    "pt": "Angolano(a)",
+    "fr": "Angolais(e)",
+    "category": "identite"
+  },
+  {
+    "pt": "Belga",
+    "fr": "Belge",
+    "category": "identite"
+  },
+  {
+    "pt": "Brasileiro(a)",
+    "fr": "Br�silien(ne)",
+    "category": "identite"
+  },
+  {
+    "pt": "Cabo-verdiano(a)",
+    "fr": "Cap-verdien(e)",
+    "category": "identite"
+  },
+  {
+    "pt": "Espanhol/espanhola",
+    "fr": "Espagnol(e)",
+    "category": "identite"
+  },
+  {
+    "pt": "Franc�s / Francesa",
+    "fr": "Fran�ais(e)",
+    "category": "identite"
+  },
+  {
+    "pt": "Ingl�s / Inglesa",
+    "fr": "Anglais(e)",
+    "category": "identite"
+  },
+  {
+    "pt": "Italiano(a)",
+    "fr": "Italien(ne)",
+    "category": "identite"
+  },
+  {
+    "pt": "Japon�s / Japonesa",
+    "fr": "Japonais(e)",
+    "category": "identite"
+  },
+  {
+    "pt": "Mo�ambicano(a)",
+    "fr": "Mozanbicain(e)",
+    "category": "identite"
+  },
+  {
+    "pt": "Portugu�s / Portuguesa",
+    "fr": "Portugais(e)",
+    "category": "identite"
+  },
+  {
+    "pt": "Sui�o(a)",
+    "fr": "Suisse",
+    "category": "identite"
+  },
+  {
+    "pt": "Timorense",
+    "fr": "Timorais(e)",
+    "category": "identite"
+  },
+  {
+    "pt": "Agricultor",
+    "fr": "Agriculteur",
+    "category": "metiers"
+  },
+  {
+    "pt": "Arquiteto",
+    "fr": "Architecte",
+    "category": "metiers"
+  },
+  {
+    "pt": "Advogado",
+    "fr": "Avocat",
+    "category": "metiers"
+  },
+  {
+    "pt": "Bombeiro",
+    "fr": "Pompier",
+    "category": "metiers"
+  },
+  {
+    "pt": "Cantor",
+    "fr": "Chanteur",
+    "category": "metiers"
+  },
+  {
+    "pt": "Comerciante",
+    "fr": "Comemr�ant",
+    "category": "metiers"
+  },
+  {
+    "pt": "Cozinheiro",
+    "fr": "Cuisinier",
+    "category": "metiers"
+  },
+  {
+    "pt": "Empregado de mesa",
+    "fr": "Serveur",
+    "category": "metiers"
+  },
+  {
+    "pt": "Enfermeiro",
+    "fr": "Infirmier",
+    "category": "metiers"
+  },
+  {
+    "pt": "Engenheiro",
+    "fr": "Ing�nieur",
+    "category": "metiers"
+  },
+  {
+    "pt": "Escritor",
+    "fr": "Ecrivian",
+    "category": "metiers"
+  },
+  {
+    "pt": "Estilista",
+    "fr": "Styliste",
+    "category": "metiers"
+  },
+  {
+    "pt": "Estudante",
+    "fr": "Etudiant",
+    "category": "metiers"
+  },
+  {
+    "pt": "Fot�grafo",
+    "fr": "Photographe",
+    "category": "metiers"
+  },
+  {
+    "pt": "Futebolista",
+    "fr": "Footballeur",
+    "category": "metiers"
+  },
+  {
+    "pt": "Jornalista",
+    "fr": "Journaliste",
+    "category": "metiers"
+  },
+  {
+    "pt": "Mec�nico",
+    "fr": "M�canicien",
+    "category": "metiers"
+  },
+  {
+    "pt": "M�dico",
+    "fr": "M�decin",
+    "category": "metiers"
+  },
+  {
+    "pt": "Padeiro",
+    "fr": "Boulanger",
+    "category": "metiers"
+  },
+  {
+    "pt": "Pintor",
+    "fr": "Peintre",
+    "category": "metiers"
+  },
+  {
+    "pt": "Pianista",
+    "fr": "Pianiste",
+    "category": "metiers"
+  },
+  {
+    "pt": "Pol�cia",
+    "fr": "Policier",
+    "category": "metiers"
+  },
+  {
+    "pt": "Professor",
+    "fr": "Professeur",
+    "category": "metiers"
+  },
+  {
+    "pt": "Secret�rio",
+    "fr": "Secr�taire",
+    "category": "metiers"
+  },
+  {
+    "pt": "Vendedor",
+    "fr": "Vendeur",
+    "category": "metiers"
+  },
+  {
+    "pt": "Primeiro",
+    "fr": "Premier",
+    "category": "nombresordinaux"
+  },
+  {
+    "pt": "Segundo",
+    "fr": "Deuxi�me",
+    "category": "nombresordinaux"
+  },
+  {
+    "pt": "Terceiro",
+    "fr": "Troisi�me",
+    "category": "nombresordinaux"
+  },
+  {
+    "pt": "Quarto",
+    "fr": "Quatri�me",
+    "category": "nombresordinaux"
+  },
+  {
+    "pt": "Quinto",
+    "fr": "Cinqui�me",
+    "category": "nombresordinaux"
+  },
+  {
+    "pt": "Sexto",
+    "fr": "Sixi�me",
+    "category": "nombresordinaux"
+  },
+  {
+    "pt": "S�timo",
+    "fr": "Septi�me",
+    "category": "nombresordinaux"
+  },
+  {
+    "pt": "Oitavo",
+    "fr": "Huiti�me",
+    "category": "nombresordinaux"
+  },
+  {
+    "pt": "Nono",
+    "fr": "Neuvi�me",
+    "category": "nombresordinaux"
+  },
+  {
+    "pt": "D�cimo",
+    "fr": "Dixi�me",
+    "category": "nombresordinaux"
+  },
+  {
+    "pt": "� direita",
+    "fr": "� droite",
+    "category": "orientation"
+  },
+  {
+    "pt": "� esquerda",
+    "fr": "� gauche",
+    "category": "orientation"
+  },
+  {
+    "pt": "Ao lado de / Ao p� de",
+    "fr": "� cot� de / Au pied de",
+    "category": "orientation"
+  },
+  {
+    "pt": "Atr�s de",
+    "fr": "Derri�re",
+    "category": "orientation"
+  },
+  {
+    "pt": "Debaixo de",
+    "fr": "En dessous de / Sous",
+    "category": "orientation"
+  },
+  {
+    "pt": "Dentro de",
+    "fr": "A l'int�rieur de",
+    "category": "orientation"
+  },
+  {
+    "pt": "Em frente de / Diante de",
+    "fr": "Devant",
+    "category": "orientation"
+  },
+  {
+    "pt": "Em cima de",
+    "fr": "Au dessus de / sur",
+    "category": "orientation"
+  },
+  {
+    "pt": "Entre",
+    "fr": "Entre",
+    "category": "orientation"
+  },
+  {
+    "pt": "Fora de",
+    "fr": "� l'ext�rieur de / En dehors de",
+    "category": "orientation"
+  },
+  {
+    "pt": "Longe de",
+    "fr": "Loin de",
+    "category": "orientation"
+  },
+  {
+    "pt": "Perto de",
+    "fr": "Pr�s de",
+    "category": "orientation"
+  },
+  {
+    "pt": "Barba",
+    "fr": "Barbe",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Bigote",
+    "fr": "Moustache",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Cara",
+    "fr": "Visage",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Cabelo (s)",
+    "fr": "Cheveu (x)",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Dentes",
+    "fr": "Dents",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Nariz",
+    "fr": "Nez",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Olhos",
+    "fr": "Yeux",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Orelhas",
+    "fr": "Oreilles",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Alto/Grande",
+    "fr": "Grand",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Baixo/Pequeno",
+    "fr": "Petit",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Magro",
+    "fr": "Mince/Maigre",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Gordo",
+    "fr": "Gros",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Bonito",
+    "fr": "Beau",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Feio",
+    "fr": "Moche",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Jovem",
+    "fr": "Jeune",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Velho",
+    "fr": "Vieux",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Comprido",
+    "fr": "Long",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Curto",
+    "fr": "Court",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Encaracolado",
+    "fr": "Boucl�",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Liso",
+    "fr": "Lisse",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Castanho",
+    "fr": "Ch�tain/brun",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Loiro",
+    "fr": "Blond",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Ruivo",
+    "fr": "Roux",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Usar roupa",
+    "fr": "Porter des v�tements",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Arrogante",
+    "fr": "Arrogant",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Calado",
+    "fr": "Silencieux",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Desorganizado",
+    "fr": "D�sorganis�",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Est�pido",
+    "fr": "Stupide",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Falador",
+    "fr": "Bavard",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Humilde",
+    "fr": "Humble",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Inteligente",
+    "fr": "Intelligent",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Organizado",
+    "fr": "Organis�",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Pregui�oso",
+    "fr": "Paresseux",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "S�rio",
+    "fr": "S�rieux",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Soci�vel",
+    "fr": "Sociable",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "T�mido",
+    "fr": "Timide",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "Trabalhador",
+    "fr": "Travailleur",
+    "category": "physiquemoral"
+  },
+  {
+    "pt": "En",
+    "fr": "o meu/minha",
+    "category": "possessif"
+  },
+  {
+    "pt": "Tu",
+    "fr": "o ten/tua",
+    "category": "possessif"
+  },
+  {
+    "pt": "Ele/Ela/Voc�",
+    "fr": "o seu/sua",
+    "category": "possessif"
+  },
+  {
+    "pt": "Nos",
+    "fr": "o nosso/nossa",
+    "category": "possessif"
+  },
+  {
+    "pt": "Eles/Elas/Voc�s",
+    "fr": "o seu/sua",
+    "category": "possessif"
+  },
+  {
+    "pt": "Cedo",
+    "fr": "T�t",
+    "category": "temps"
+  },
+  {
+    "pt": "Tarde",
+    "fr": "Tard",
+    "category": "temps"
+  },
+  {
+    "pt": "Noite",
+    "fr": "Nuit",
+    "category": "temps"
+  },
+  {
+    "pt": "Dia",
+    "fr": "Jour",
+    "category": "temps"
+  },
+  {
+    "pt": "Encolorado",
+    "fr": "Ensoleill�",
+    "category": "temps"
+  },
+  {
+    "pt": "Chuva",
+    "fr": "Pluie",
+    "category": "temps"
+  },
+  {
+    "pt": "Neve",
+    "fr": "Neige",
+    "category": "temps"
+  }
+]

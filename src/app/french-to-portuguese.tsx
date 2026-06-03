@@ -12,109 +12,101 @@ import {
 } from "react-native";
 
 import { loadAll } from "../data/loadAll";
-
-const categoryLabels: Record<string, string> = {
-  touslesmots: "Tout",
-  activite: "Activité",
-  banquedemots: "Banque de mots",
-  comparaison: "Comparaison",
-  couleurs: "Couleurs",
-  date: "Date",
-  famille: "Famille",
-  humeur: "Humeur",
-  identite: "Identité",
-  metiers: "Métiers",
-  nombresordinaux: "Nombres ordinaux",
-  orientation: "Orientation",
-  physiquemoral: "Physique / Moral",
-  possessif: "Possessif",
-  temps: "Temps",
-  corpshumain: "Corps Humain"
+  type Word = {
+  pt: string;
+  fr: string;
+  category: string;
 };
 
-const CATEGORY_ORDER = [
-  "touslesmots",
-  "activite",
-  "banquedemots",
-  "comparaison",
-  "corpshumain",
-  "couleurs",
-  "date",
-  "famille",
-  "humeur",
-  "identite",
-  "metiers",
-  "nombresordinaux",
-  "orientation",
-  "physiquemoral",
-  "possessif",
-  "temps"
-];
-
 export default function App() {
-  const [data, setData] = useState<Record<string, any[]> | null>(null);
-
-  const [category, setCategory] = useState("touslesmots");
+  // ✅ STATES OBLIGATOIRES
+  const [data, setData] = useState<Word[]>([]);  
   const [shuffled, setShuffled] = useState<any[]>([]);
+  const [category, setCategory] = useState("touslesmots");
   const [index, setIndex] = useState(0);
-
   const [input, setInput] = useState("");
   const [result, setResult] = useState<string | null>(null);
+  const check = () => {
+  const user = input.trim().toLowerCase();
+  const correct = (word.fr ?? "").toLowerCase();
+  const diff = countDiff(user, correct);
+    setResult(diff <= 1 ? "✅ Correct !" : `❌ Faux → ${word.fr}`);
+      };
+      const next = () => {
+      setInput("");
+      setResult(null);
+      setIndex((prev) =>
+        prev + 1 < shuffled.length ? prev + 1 : 0
+      );
+    };
+  const categoryLabels = (() => {
+    const labels: Record<string, string> = {
+      touslesmots: "Tout"
+    };
+    data.forEach((word) => {
+      if (word.category && !labels[word.category]) {
+        // transformation propre du texte
+        labels[word.category] =
+          word.category.charAt(0).toUpperCase() +
+          word.category.slice(1);
+      }
+    });
+  return labels;
+  })();
+  const categories = [
+  "touslesmots",
+  ...new Set((data ?? []).map((w) => w.category))
+  ];
 
-  // 🌗 MODE SOMBRE AUTO
+  // 🌗 mode sombre
   const scheme = useColorScheme();
   const isDark = scheme === "dark";
 
   const colors = {
-    background: isDark ? "#121212" : "#ffffff",
-    text: isDark ? "#ffffff" : "#000000",
-    card: isDark ? "#1e1e1e" : "#f2f2f2",
-    input: isDark ? "#2a2a2a" : "#ffffff",
+    background: isDark ? "#121212" : "#fff",
+    text: isDark ? "#fff" : "#000",
+    input: isDark ? "#2a2a2a" : "#fff",
     border: isDark ? "#444" : "#ccc",
-    button: isDark ? "#444" : "#ccc",
     buttonBg: isDark ? "#2a2a2a" : "#e6e6e6"
   };
 
+  // ✅ SHUFFLE DOIT ÊTRE DANS LE FICHIER
+  function shuffle(array: any[]) {
+    const arr = [...array];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  // ✅ LOAD DATA
   useEffect(() => {
     const load = async () => {
       const result = await loadAll();
       setData(result);
-
-      setShuffled(result.touslesmots ?? []);
+      setShuffled(shuffle(result));
     };
 
     load();
   }, []);
 
-  function shuffle(array: any[]) {
-    const arr = [...array];
-
-    for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [arr[i], arr[j]] = [arr[j], arr[i]];
-    }
-
-    return arr;
-  }
-
-  if (!data) {
-    return (
-      <View style={[styles.container, { backgroundColor: colors.background }]}>
-        <Text style={{ color: colors.text }}>Chargement...</Text>
-      </View>
-    );
-  }
-
+  // ✅ CHANGE CATEGORY
   const changeCategory = (cat: string) => {
     setCategory(cat);
-    setShuffled(shuffle(data?.[cat] ?? []));
+
+    const filtered =
+      cat === "touslesmots"
+        ? data
+        : data.filter((w) => w.category === cat);
+
+    setShuffled(shuffle(filtered));
     setIndex(0);
     setInput("");
     setResult(null);
   };
 
   const word = shuffled[index] ?? { pt: "", fr: "" };
-
   function countDiff(a: string, b: string) {
     let diff = 0;
     const len = Math.max(a.length, b.length);
@@ -126,108 +118,88 @@ export default function App() {
     return diff;
   }
 
-  const check = () => {
-    const user = input.trim().toLowerCase();
-    const correct = (word.pt ?? "").toLowerCase();
-
-    const diff = countDiff(user, correct);
-
-    setResult(diff <= 1 ? "✅ Correct !" : `❌ Faux → ${word.pt}`);
-  };
-
-  const next = () => {
-    setInput("");
-    setResult(null);
-
-    setIndex((prev) =>
-      prev + 1 < shuffled.length ? prev + 1 : 0
-    );
-  };
-
-  const categories = CATEGORY_ORDER.filter((cat) => data?.[cat]);
-
   return (
     <KeyboardAvoidingView
-      style={{ flex: 1, backgroundColor: colors.background }}
-      behavior={Platform.OS === "ios" ? "padding" : "height"}
-    >
-      <ScrollView
-        contentContainerStyle={[styles.container, { backgroundColor: colors.background }]}
-        keyboardShouldPersistTaps="handled"
-      >
-        <Text style={[styles.title, { color: colors.text }]}>
-          🇫🇷 Français vers Portugais 🇵🇹
-        </Text>
-
-        {/* CATEGORIES */}
-        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-          {categories.map((cat) => (
-            <TouchableOpacity key={cat} onPress={() => changeCategory(cat)}>
-              <Text
-                style={
-                  category === cat
-                    ? [styles.active, { color: colors.text }]
-                    : [styles.tab, { color: colors.text }]
+          style={{ flex: 1, backgroundColor: colors.background }}
+          behavior={Platform.OS === "ios" ? "padding" : "height"}
+        >
+          <ScrollView
+            contentContainerStyle={[styles.container, { backgroundColor: colors.background }]}
+            keyboardShouldPersistTaps="handled"
+          >
+            <Text style={[styles.title, { color: colors.text }]}>
+              🇵🇹 Portugais vers Français 🇫🇷
+            </Text>
+    
+            {/* category */}
+            <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+              {categories.map((cat) => (
+                <TouchableOpacity key={cat} onPress={() => changeCategory(cat)}>
+                  <Text
+                    style={
+                      category === cat
+                        ? [styles.active, { color: colors.text }]
+                        : [styles.tab, { color: colors.text }]
+                    }
+                  >
+                    {categoryLabels[cat] ?? cat}
+                  </Text>
+                </TouchableOpacity>
+              ))}
+            </ScrollView>
+    
+            {/* MOT */}
+            <Text style={[styles.word, { color: colors.text }]}>
+              {word.pt}
+            </Text>
+    
+            {/* INPUT */}
+            <TextInput
+              style={[
+                styles.input,
+                {
+                  backgroundColor: colors.input,
+                  color: colors.text,
+                  borderColor: colors.border
                 }
-              >
-                {categoryLabels[cat] ?? cat}
+              ]}
+              placeholder="Traduction"
+              placeholderTextColor={isDark ? "#aaa" : "#666"}
+              value={input}
+              onChangeText={setInput}
+            />
+    
+            {/* BOUTONS */}
+            <View style={styles.buttonsRow}>
+              <TouchableOpacity onPress={check}
+                style={[
+                styles.button,
+                { backgroundColor: colors.buttonBg }
+                ]}>
+                <Text style={[styles.buttonText, { color: colors.text }]}>
+                Vérifier
+                </Text>
+              </TouchableOpacity>
+    
+              <TouchableOpacity onPress={next}
+                style={[
+                styles.button,
+                { backgroundColor: colors.buttonBg }
+                ]}>
+                <Text style={[styles.buttonText, { color: colors.text }]}>
+                Suivant
+                </Text>
+              </TouchableOpacity>
+            </View>
+    
+            {/* RESULTAT */}
+            {result && (
+              <Text style={[styles.result, { color: colors.text }]}>
+                {result}
               </Text>
-            </TouchableOpacity>
-          ))}
-        </ScrollView>
-
-        {/* MOT */}
-        <Text style={[styles.word, { color: colors.text }]}>
-          {word.fr}
-        </Text>
-
-        {/* INPUT */}
-        <TextInput
-          style={[
-            styles.input,
-            {
-              backgroundColor: colors.input,
-              color: colors.text,
-              borderColor: colors.border
-            }
-          ]}
-          placeholder="Traduction"
-          placeholderTextColor={isDark ? "#aaa" : "#666"}
-          value={input}
-          onChangeText={setInput}
-        />
-
-        {/* BOUTONS */}
-        <View style={styles.buttonsRow}>
-          <TouchableOpacity onPress={check}
-            style={[
-            styles.button,
-            { backgroundColor: colors.buttonBg }
-            ]}>
-            <Text style={[styles.buttonText, { color: colors.text }]}>
-            Vérifier
-            </Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity onPress={next}
-            style={[
-            styles.button,
-            { backgroundColor: colors.buttonBg }
-            ]}>
-            <Text style={[styles.buttonText, { color: colors.text }]}>
-            Suivant
-            </Text>
-          </TouchableOpacity>
-        </View>
-
-        {/* RESULTAT */}
-        {result && (
-          <Text style={[styles.result, { color: colors.text }]}>
-            {result}
-          </Text>
-        )}
-      </ScrollView>
-    </KeyboardAvoidingView>
+            )}
+          </ScrollView>
+        </KeyboardAvoidingView>
   );
 }
 
