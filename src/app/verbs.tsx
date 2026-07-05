@@ -50,18 +50,27 @@ export default function PlayScreen() {
    * Chargement des verbes
    */
   useEffect(() => {
-    async function init() {
-      try {
-        const verbs = await loadVerbs();
-        const random = getRandomVerb(verbs);
-        setVerb(random);
-      } catch (e) {
-        console.log("Erreur chargement verbes", e);
-      }
-    }
+  async function init() {
+    try {
+      console.log("⏳ loading verbs...");
 
-    init();
-  }, []);
+      const verbs = await loadVerbs();
+
+      console.log("📦 verbs loaded:", verbs?.length);
+      console.log("📦 sample verb:", verbs?.[0]);
+
+      const random = getRandomVerb(verbs);
+
+      console.log("🎯 random verb:", random);
+
+      setVerb(random);
+    } catch (e) {
+      console.log("❌ ERREUR loadVerbs:", e);
+    }
+  }
+
+  init();
+}, []);
 
   /**
    * Update input
@@ -119,7 +128,7 @@ console.log("CORRECT:", verb.conjugations.present);
     <ScrollView contentContainerStyle={styles.container}>
       {/* TITRE */}
       <Text style={styles.title}>
-        Verbe : {verb.infinitive}
+        {verb.infinitive}
       </Text>
 
       <Text style={styles.subtitle}>
@@ -167,7 +176,7 @@ console.log("CORRECT:", verb.conjugations.present);
                 ]}
               >
                 {result[p.key].isCorrect
-                  ? "✔️"
+                  ? "✅"
                   : `❌ ${result[p.key].correct}`}
               </Text>
             )}
