@@ -52,5 +52,32 @@
         "eles": "terão"
       }
     }
+  },
+  {
+    "infinitive": "Tomar",
+    "group": 0,
+    "conjugations": {
+      "present": {
+        "eu": "tomo",
+        "tu": "tomas",
+        "ele": "toma",
+        "nos": "tomamos",
+        "eles": "tomam"
+      },
+      "passe": {
+        "eu": "tomei",
+        "tu": "tomaste",
+        "ele": "tomou",
+        "nos": "tomamos",
+        "eles": "tomaram"
+      },
+      "futur": {
+        "eu": "tomarei",
+        "tu": "tomarás",
+        "ele": "tomará",
+        "nos": "tomaremos",
+        "eles": "tomarão"
+      }
+    }
   }
 ]
