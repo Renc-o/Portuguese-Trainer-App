@@ -147,6 +147,32 @@ export default function Home() {
             </Text>
           </TouchableOpacity>
           </View>
+        {/* Bouton Verbes */}
+          <View
+          style={{
+            width: "100%",
+            marginTop: 15,
+          }}
+          >
+          <TouchableOpacity
+            onPress={() => router.push("/verbs")}
+            style={[
+              styles.button,
+              {
+                backgroundColor: colors.buttonBg,
+              },
+            ]}
+          >
+            <Text
+              style={[
+                styles.buttonText,
+                { color: colors.text },
+              ]}
+            >
+              📋 Verbes
+            </Text>
+          </TouchableOpacity>
+          </View>
         </View>
       </ScrollView>
     </KeyboardAvoidingView>
