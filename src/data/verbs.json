@@ -1,11 +1,11 @@
 [
   {
-    "infinitive": "ser",
+    "infinitive": "Ser",
     "group": 0,
     "conjugations": {
       "present": {
         "eu": "sou",
-        "tu": "és",
+        "tu": "es",
         "ele": "é",
         "nos": "somos",
         "eles": "são"
@@ -23,6 +23,33 @@
         "ele": "será",
         "nos": "seremos",
         "eles": "serão"
+      }
+    }
+  },
+  {
+    "infinitive": "Ter",
+    "group": 0,
+    "conjugations": {
+      "present": {
+        "eu": "tenho",
+        "tu": "tens",
+        "ele": "tem",
+        "nos": "temos",
+        "eles": "têm"
+      },
+      "passe": {
+        "eu": "tinha",
+        "tu": "tinhas",
+        "ele": "tinha",
+        "nos": "tinhamos",
+        "eles": "tinham"
+      },
+      "futur": {
+        "eu": "terei",
+        "tu": "terás",
+        "ele": "terá",
+        "nos": "teremos",
+        "eles": "terão"
       }
     }
   }
