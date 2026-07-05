@@ -1,27 +1,29 @@
-{
-  "infinitive": "ser",
-  "group": 0,
-  "conjugations": {
-    "present": {
-      "eu": "sou",
-      "tu": "és",
-      "ele": "é",
-      "nos": "somos",
-      "eles": "são"
-    },
-    "passe": {
-      "eu": "fui",
-      "tu": "foste",
-      "ele": "foi",
-      "nos": "fomos",
-      "eles": "foram"
-    },
-    "futur": {
-      "eu": "serei",
-      "tu": "serás",
-      "ele": "será",
-      "nos": "seremos",
-      "eles": "serão"
+[
+  {
+    "infinitive": "ser",
+    "group": 0,
+    "conjugations": {
+      "present": {
+        "eu": "sou",
+        "tu": "és",
+        "ele": "é",
+        "nos": "somos",
+        "eles": "são"
+      },
+      "passe": {
+        "eu": "fui",
+        "tu": "foste",
+        "ele": "foi",
+        "nos": "fomos",
+        "eles": "foram"
+      },
+      "futur": {
+        "eu": "serei",
+        "tu": "serás",
+        "ele": "será",
+        "nos": "seremos",
+        "eles": "serão"
+      }
     }
   }
-}
+]
