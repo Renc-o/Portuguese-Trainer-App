@@ -1,4 +1,4 @@
-export type Pronoun = "je" | "tu" | "il" | "nous" | "vous" | "ils";
+export type Pronoun = "eu" | "tu" | "ele" | "nos" | "eles";
 
 export type Tense = "present" | "passeCompose" | "futur";
 
@@ -9,7 +9,7 @@ export interface Verb {
 }
 
 const URL =
-  "https://raw.githubusercontent.com/Renc-o/Portuguese-Trainer-App/main/src/data/verbs.json";
+  "https://raw.githubusercontent.com/Renc-o/Portuguese-Trainer-App/refs/heads/main/src/data/verbs.json";
 
 /**
  * Charge les verbes depuis GitHub

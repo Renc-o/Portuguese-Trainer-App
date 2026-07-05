@@ -1,59 +1,108 @@
 import { useEffect, useState } from "react";
 import {
-    ScrollView,
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from "react-native";
 
 import { getRandomVerb, loadVerbs, Verb } from "../data/loadVerbs";
 
-const pronouns = ["je", "tu", "il", "nous", "vous", "ils"] as const;
+/**
+ * Pronoms portugais (UI + clés techniques)
+ */
+const pronouns = [
+  { key: "eu", label: "Eu" },
+  { key: "tu", label: "Tu" },
+  { key: "ele", label: "Ele / Ela / Você" },
+  { key: "nos", label: "Nós" },
+  { key: "eles", label: "Eles / Elas / Vocês" },
+] as const;
+
+type AnswerKey = typeof pronouns[number]["key"];
+
+type Answers = Record<AnswerKey, string>;
+
+type ResultMap = Record<
+  string,
+  {
+    isCorrect: boolean;
+    correct: string;
+  }
+>;
 
 export default function PlayScreen() {
   const [verb, setVerb] = useState<Verb | null>(null);
 
-  const [answers, setAnswers] = useState<Record<string, string>>({
-    je: "",
+  const [answers, setAnswers] = useState<Answers>({
+    eu: "",
     tu: "",
-    il: "",
-    nous: "",
-    vous: "",
-    ils: "",
+    ele: "",
+    nos: "",
+    eles: "",
   });
 
+  const [result, setResult] = useState<ResultMap>({});
+
+  /**
+   * Chargement des verbes
+   */
   useEffect(() => {
     async function init() {
-      const verbs = await loadVerbs();
-      setVerb(getRandomVerb(verbs));
+      try {
+        const verbs = await loadVerbs();
+        const random = getRandomVerb(verbs);
+        setVerb(random);
+      } catch (e) {
+        console.log("Erreur chargement verbes", e);
+      }
     }
 
     init();
   }, []);
 
-  const handleChange = (key: string, value: string) => {
+  /**
+   * Update input
+   */
+  const handleChange = (key: AnswerKey, value: string) => {
     setAnswers((prev) => ({
       ...prev,
       [key]: value,
     }));
   };
 
-  const checkAnswers = () => {
-    if (!verb) return;
+  /**
+   * Normalisation
+   */
+  const normalize = (v: unknown) =>
+    String(v ?? "").trim().toLowerCase();
 
-    const correct = verb.conjugations.present;
+  /**
+   * Vérification
+   */
+const checkAnswers = () => {
+  if (!verb) return;
 
-    const result = pronouns.map((p) => ({
-      pronoun: p,
-      user: answers[p],
-      correct: correct[p],
-      isCorrect: answers[p]?.trim().toLowerCase() === correct[p],
-    }));
+  const correct = verb.conjugations.present;
 
-    console.log(result);
-  };
+  const res: Record<string, any> = {};
+
+  pronouns.forEach((p) => {
+    const good = correct[p.key];
+    const user = answers[p.key];
+
+    res[p.key] = {
+      isCorrect:
+        String(user ?? "").trim().toLowerCase() ===
+        String(good ?? "").trim().toLowerCase(),
+      correct: good ?? "",
+    };
+  });
+
+  setResult(res);
+};
 
   if (!verb) {
     return (
@@ -63,8 +112,12 @@ export default function PlayScreen() {
     );
   }
 
+  console.log("USER:", answers);
+console.log("CORRECT:", verb.conjugations.present);
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
+      {/* TITRE */}
       <Text style={styles.title}>
         Verbe : {verb.infinitive}
       </Text>
@@ -73,21 +126,56 @@ export default function PlayScreen() {
         Présent
       </Text>
 
+      {/* TABLE */}
       <View style={styles.table}>
         {pronouns.map((p) => (
-          <View key={p} style={styles.row}>
-            <Text style={styles.pronoun}>{p}</Text>
+          <View key={p.key} style={styles.row}>
+            {/* PRONOM */}
+            <Text style={styles.pronoun}>
+              {p.label}
+            </Text>
 
+            {/* INPUT */}
             <TextInput
               style={styles.input}
-              value={answers[p]}
-              onChangeText={(text) => handleChange(p, text)}
-              placeholder="..."
+              value={answers[p.key]}
+              onChangeText={(text) =>
+                handleChange(p.key, text)
+              }
+              placeholder="Traduction"
+              autoCorrect={false}
+              spellCheck={false}
+              autoCapitalize="none"
+              autoComplete="off"
+              importantForAutofill="no"
+              textContentType="none"
+              keyboardType="visible-password"
+              contextMenuHidden={true}
+              disableFullscreenUI={true}
             />
+
+            {/* CORRECTION INLINE */}
+            {result[p.key] && (
+              <Text
+                style={[
+                  styles.result,
+                  {
+                    color: result[p.key].isCorrect
+                      ? "green"
+                      : "red",
+                  },
+                ]}
+              >
+                {result[p.key].isCorrect
+                  ? "✔️"
+                  : `❌ ${result[p.key].correct}`}
+              </Text>
+            )}
           </View>
         ))}
       </View>
 
+      {/* BOUTON */}
       <TouchableOpacity
         style={styles.button}
         onPress={checkAnswers}
@@ -100,52 +188,73 @@ export default function PlayScreen() {
   );
 }
 
+/**
+ * STYLES
+ */
 const styles = StyleSheet.create({
   container: {
     padding: 20,
+    paddingTop: 80,
   },
+
   center: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
   },
+
   title: {
     fontSize: 28,
-    fontWeight: "bold",
+    fontWeight: "700",
     marginBottom: 10,
   },
+
   subtitle: {
     fontSize: 18,
     marginBottom: 20,
     color: "gray",
   },
+
   table: {
-    marginBottom: 20,
+    width: "100%",
   },
+
   row: {
     flexDirection: "row",
     alignItems: "center",
-    marginBottom: 10,
+    marginBottom: 12,
   },
+
   pronoun: {
-    width: 80,
-    fontSize: 18,
+    width: 120,
+    fontSize: 16,
   },
+
   input: {
     flex: 1,
     borderWidth: 1,
     borderColor: "#ccc",
-    padding: 10,
+    padding: 12,
     borderRadius: 8,
   },
+
+  result: {
+    marginLeft: 10,
+    fontSize: 14,
+    fontWeight: "600",
+  },
+
   button: {
+    marginTop: 15,
     backgroundColor: "black",
     padding: 15,
     borderRadius: 10,
     alignItems: "center",
   },
+
   buttonText: {
     color: "white",
     fontSize: 16,
+    fontWeight: "600",
   },
 });
