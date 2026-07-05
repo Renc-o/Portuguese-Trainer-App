@@ -1,7 +1,7 @@
 [
   {
     "pt": "Andar de bicicleta",
-    "fr": "Faire du v�lo",
+    "fr": "Faire du vélo",
     "category": "activite"
   },
   {
@@ -10,7 +10,7 @@
     "category": "activite"
   },
   {
-    "pt": "Dan�ar",
+    "pt": "Dançar",
     "fr": "Danser",
     "category": "activite"
   },
@@ -35,8 +35,8 @@
     "category": "activite"
   },
   {
-    "pt": "Ver televis�o",
-    "fr": "Regarder la t�l�",
+    "pt": "Ver televisão",
+    "fr": "Regarder la télévision",
     "category": "activite"
   },
   {
@@ -150,7 +150,7 @@
     "category": "banquedemots"
   },
   {
-    "pt": "Mais� (do) que",
+    "pt": "Mais (do) que",
     "fr": "Plus que",
     "category": "comparaison"
   },
@@ -160,7 +160,7 @@
     "category": "comparaison"
   },
   {
-    "pt": "T�o... como",
+    "pt": "Tão... como",
     "fr": "Autant que",
     "category": "comparaison"
   },
@@ -201,7 +201,7 @@
   },
   {
     "pt": "Ombro",
-    "fr": "�paule",
+    "fr": "Épaule",
     "category": "corpshumain"
   },
   {
@@ -410,68 +410,154 @@
     "category": "date"
   },
   {
-    "pt": "Grand-pere /Grand-mere/Grands-parents",
-    "fr": "Av�/Av� /Av�s",
+    "pt": "Avô",
+    "fr": "Grand-père",
     "category": "famille"
   },
   {
-    "pt": "Cunhado/ a",
-    "fr": "Beau-fr�re /Belle-soeur",
+    "pt": "Avó",
+    "fr": "Grand-mère",
     "category": "famille"
   },
   {
-    "pt": "Filho /Filha/Filhos",
-    "fr": "Fils/Fille/Enfants",
+    "pt": "Avós",
+    "fr": "Grands-parents",
     "category": "famille"
   },
   {
-    "pt": "Genro/Nora",
-    "fr": "Gendre/Belle-fille",
+    "pt": "Cunhado",
+    "fr": "Beau-frère",
     "category": "famille"
   },
   {
-    "pt": "Irm�o /Irma /Irm�os",
-    "fr": "Fr�re/ Soeur/ Fr�res et soeurs",
+    "pt": "Cunhada",
+    "fr": "Belle-soeur",
     "category": "famille"
   },
   {
-    "pt": "Neto/Neta /Netos",
-    "fr": "Petit-fils/Petite-fille/Petits-enfants",
+    "pt": "Filho",
+    "fr": "Fils",
     "category": "famille"
   },
   {
-    "pt": "Pai/M�e /Pais",
-    "fr": "P�re/M�re/Parents",
+    "pt": "Filha",
+    "fr": "Fille",
     "category": "famille"
   },
   {
-    "pt": "Primo/Prima/Primos",
-    "fr": "Cousin/Cousine /Cousins et cousines",
+    "pt": "Filhos",
+    "fr": "Enfants",
     "category": "famille"
   },
   {
-    "pt": "Sobrinho /Sobrinha",
-    "fr": "Neveu/Ni�ce",
+    "pt": "Genro",
+    "fr": "Gendre",
     "category": "famille"
   },
   {
-    "pt": "Sogro/Sogra",
-    "fr": "Beau-p�re /Belle-m�re",
+    "pt": "Nora",
+    "fr": "Belle-fille",
     "category": "famille"
   },
   {
-    "pt": "Tio/Tia",
-    "fr": "Oncle/Tante",
+    "pt": "Irmão",
+    "fr": "Frère",
+    "category": "famille"
+  },
+  {
+    "pt": "Irma",
+    "fr": "Soeur",
+    "category": "famille"
+  },
+  {
+    "pt": "Irmãos",
+    "fr": "Frères et soeurs",
+    "category": "famille"
+  },
+  {
+    "pt": "Neto",
+    "fr": "Petit-fils",
+    "category": "famille"
+  },
+  {
+    "pt": "Neta",
+    "fr": "Petite-fille",
+    "category": "famille"
+  },
+  {
+    "pt": "Netos",
+    "fr": "Petits-enfants",
+    "category": "famille"
+  },
+  {
+    "pt": "Pai",
+    "fr": "Père",
+    "category": "famille"
+  },
+  {
+    "pt": "Mãe",
+    "fr": "Mère",
+    "category": "famille"
+  },
+  {
+    "pt": "Pais",
+    "fr": "Parents",
+    "category": "famille"
+  },
+  {
+    "pt": "Primo",
+    "fr": "Cousin",
+    "category": "famille"
+  },
+  {
+    "pt": "Prima",
+    "fr": "Cousine",
+    "category": "famille"
+  },
+  {
+    "pt": "Primos",
+    "fr": "Cousins et cousines",
+    "category": "famille"
+  },
+  {
+    "pt": "Sobrinho",
+    "fr": "Neveu",
+    "category": "famille"
+  },
+  {
+    "pt": "Sobrinha",
+    "fr": "Nièce",
+    "category": "famille"
+  },
+  {
+    "pt": "Sogro",
+    "fr": "Beau-père",
+    "category": "famille"
+  },
+  {
+    "pt": "Sogra",
+    "fr": "Belle-mère",
+    "category": "famille"
+  },
+  {
+    "pt": "Tio",
+    "fr": "Oncle",
+    "category": "famille"
+  },
+
+  {
+    "pt": "Tia",
+    "fr": "Tante",
     "category": "famille"
   },
   {
     "pt": "Aborrecido",
-    "fr": "Contrari�",
+    "fr": "Contrarié",
     "category": "humeur"
   },
   {
     "pt": "Animado",
-    "fr": "Enjou�",
+    "fr": "Enjoué",
     "category": "humeur"
   },
   {
@@ -486,12 +572,12 @@
   },
   {
     "pt": "Cansado",
-    "fr": "Fatigu�",
+    "fr": "Fatigué",
     "category": "humeur"
   },
   {
     "pt": "Concentrado",
-    "fr": "Concentr�",
+    "fr": "Concentré",
     "category": "humeur"
   },
   {
@@ -521,7 +607,7 @@
   },
   {
     "pt": "Zangado",
-    "fr": "F�ch�",
+    "fr": "Fâché",
     "category": "humeur"
   },
   {
@@ -531,7 +617,7 @@
   },
   {
     "pt": "Desanimado",
-    "fr": "D�courag�",
+    "fr": "Découragé",
     "category": "humeur"
   },
   {
@@ -546,7 +632,7 @@
   },
   {
     "pt": "Descansado",
-    "fr": "Repos�",
+    "fr": "Reposé",
     "category": "humeur"
   },
   {
@@ -561,7 +647,7 @@
   },
   {
     "pt": "Saudavel",
-    "fr": "En bonne sant�",
+    "fr": "En bonne santé",
     "category": "humeur"
   },
   {
@@ -586,7 +672,7 @@
   },
   {
     "pt": "Apelido",
-    "fr": "Nom de famille",
+    "fr": "Nom",
     "category": "identite"
   },
   {
@@ -606,12 +692,12 @@
   },
   {
     "pt": "Nome",
-    "fr": "Pr�nom",
+    "fr": "Prénom",
     "category": "identite"
   },
   {
-    "pt": "Cadaso(a)",
-    "fr": "Mari�(e)",
+    "pt": "Cadaso",
+    "fr": "Marié",
     "category": "identite"
   },
   {
@@ -631,12 +717,12 @@
   },
   {
     "pt": "Solteiro(a)",
-    "fr": "C�libataire",
+    "fr": "Célibataire",
     "category": "identite"
   },
   {
-    "pt": "Profiss�o / profiss�es",
-    "fr": "M�tier(s)",
+    "pt": "Profissão",
+    "fr": "Métier",
     "category": "identite"
   },
   {
@@ -651,27 +737,32 @@
   },
   {
     "pt": "A minha nacionalidade",
-    "fr": "Ma nationalit�",
+    "fr": "Ma nationalité",
     "category": "identite"
   },
   {
     "pt": "A tua nacionalidade",
-    "fr": "Ta nationalit�",
+    "fr": "Ta nationalité",
     "category": "identite"
   },
   {
     "pt": "A sua nacionalidade",
-    "fr": "Sa/votre nationalit�",
+    "fr": "Sa/votre nationalité",
     "category": "identite"
   },
   {
     "pt": "Argelino(a)",
-    "fr": "Alg�rien(e)",
+    "fr": "Algérien(e)",
     "category": "identite"
   },
   {
-    "pt": "Alem�o / alem�",
-    "fr": "Allemand(e)",
+    "pt": "Alemão",
+    "fr": "Allemand",
+    "category": "identite"
+  },
+  {
+    "pt": "Alemã",
+    "fr": "Allemande",
     "category": "identite"
   },
   {
@@ -686,7 +777,7 @@
   },
   {
     "pt": "Brasileiro(a)",
-    "fr": "Br�silien(ne)",
+    "fr": "Brésilien(ne)",
     "category": "identite"
   },
   {
@@ -695,18 +786,34 @@
     "category": "identite"
   },
   {
-    "pt": "Espanhol/espanhola",
-    "fr": "Espagnol(e)",
+    "pt": "Espanhol",
+    "fr": "Espagnol",
     "category": "identite"
   },
   {
-    "pt": "Franc�s / Francesa",
-    "fr": "Fran�ais(e)",
+    "pt": "Espanhola",
+    "fr": "Espagnole",
     "category": "identite"
   },
   {
-    "pt": "Ingl�s / Inglesa",
-    "fr": "Anglais(e)",
+    "pt": "Francês",
+    "fr": "Français",
+    "category": "identite"
+  },
+
+  {
+    "pt": "Francesa",
+    "fr": "Française",
+    "category": "identite"
+  },
+  {
+    "pt": "Inglês",
+    "fr": "Anglais",
+    "category": "identite"
+  },
+  {
+    "pt": "Inglesa",
+    "fr": "Anglaise",
     "category": "identite"
   },
   {
@@ -715,22 +822,32 @@
     "category": "identite"
   },
   {
-    "pt": "Japon�s / Japonesa",
-    "fr": "Japonais(e)",
+    "pt": "Japonês",
+    "fr": "Japonais",
     "category": "identite"
   },
   {
-    "pt": "Mo�ambicano(a)",
-    "fr": "Mozanbicain(e)",
+    "pt": "Japonesa",
+    "fr": "Japonaise",
     "category": "identite"
   },
   {
-    "pt": "Portugu�s / Portuguesa",
-    "fr": "Portugais(e)",
+    "pt": "Moçambicano(a)",
+    "fr": "Mozambicain(e)",
     "category": "identite"
   },
   {
-    "pt": "Sui�o(a)",
+    "pt": "Português",
+    "fr": "Portugais",
+    "category": "identite"
+  },
+  {
+    "pt": "Portuguesa",
+    "fr": "Portugaise",
+    "category": "identite"
+  },
+  {
+    "pt": "Suiço(a)",
     "fr": "Suisse",
     "category": "identite"
   },
@@ -766,7 +883,7 @@
   },
   {
     "pt": "Comerciante",
-    "fr": "Comemr�ant",
+    "fr": "Commerçant",
     "category": "metiers"
   },
   {
@@ -786,7 +903,7 @@
   },
   {
     "pt": "Engenheiro",
-    "fr": "Ing�nieur",
+    "fr": "Ingénieur",
     "category": "metiers"
   },
   {
@@ -805,7 +922,7 @@
     "category": "metiers"
   },
   {
-    "pt": "Fot�grafo",
+    "pt": "Fotógrafo",
     "fr": "Photographe",
     "category": "metiers"
   },
@@ -820,13 +937,13 @@
     "category": "metiers"
   },
   {
-    "pt": "Mec�nico",
-    "fr": "M�canicien",
+    "pt": "Mecânico",
+    "fr": "Mécanicien",
     "category": "metiers"
   },
   {
-    "pt": "M�dico",
-    "fr": "M�decin",
+    "pt": "Médico",
+    "fr": "Médecin",
     "category": "metiers"
   },
   {
@@ -845,7 +962,7 @@
     "category": "metiers"
   },
   {
-    "pt": "Pol�cia",
+    "pt": "Polícia",
     "fr": "Policier",
     "category": "metiers"
   },
@@ -855,8 +972,8 @@
     "category": "metiers"
   },
   {
-    "pt": "Secret�rio",
-    "fr": "Secr�taire",
+    "pt": "secretário",
+    "fr": "Secrétaire",
     "category": "metiers"
   },
   {
@@ -871,67 +988,67 @@
   },
   {
     "pt": "Segundo",
-    "fr": "Deuxi�me",
+    "fr": "Deuxième",
     "category": "nombresordinaux"
   },
   {
     "pt": "Terceiro",
-    "fr": "Troisi�me",
+    "fr": "Troisième",
     "category": "nombresordinaux"
   },
   {
     "pt": "Quarto",
-    "fr": "Quatri�me",
+    "fr": "Quatrième",
     "category": "nombresordinaux"
   },
   {
     "pt": "Quinto",
-    "fr": "Cinqui�me",
+    "fr": "Cinquième",
     "category": "nombresordinaux"
   },
   {
     "pt": "Sexto",
-    "fr": "Sixi�me",
+    "fr": "Sixième",
     "category": "nombresordinaux"
   },
   {
-    "pt": "S�timo",
-    "fr": "Septi�me",
+    "pt": "Sétimo",
+    "fr": "Septième",
     "category": "nombresordinaux"
   },
   {
     "pt": "Oitavo",
-    "fr": "Huiti�me",
+    "fr": "Huitième",
     "category": "nombresordinaux"
   },
   {
     "pt": "Nono",
-    "fr": "Neuvi�me",
+    "fr": "Neuvième",
     "category": "nombresordinaux"
   },
   {
-    "pt": "D�cimo",
-    "fr": "Dixi�me",
+    "pt": "Décimo",
+    "fr": "Dixième",
     "category": "nombresordinaux"
   },
   {
-    "pt": "� direita",
-    "fr": "� droite",
+    "pt": "À direita",
+    "fr": "À droite",
     "category": "orientation"
   },
   {
-    "pt": "� esquerda",
-    "fr": "� gauche",
+    "pt": "À esquerda",
+    "fr": "À gauche",
     "category": "orientation"
   },
   {
-    "pt": "Ao lado de / Ao p� de",
-    "fr": "� cot� de / Au pied de",
+    "pt": "Ao lado de / Ao pé de",
+    "fr": "À coté de / Au pied de",
     "category": "orientation"
   },
   {
-    "pt": "Atr�s de",
-    "fr": "Derri�re",
+    "pt": "Atràs de",
+    "fr": "Derrière",
     "category": "orientation"
   },
   {
@@ -941,7 +1058,7 @@
   },
   {
     "pt": "Dentro de",
-    "fr": "A l'int�rieur de",
+    "fr": "A l'intérieur de",
     "category": "orientation"
   },
   {
@@ -961,7 +1078,7 @@
   },
   {
     "pt": "Fora de",
-    "fr": "� l'ext�rieur de / En dehors de",
+    "fr": "À l'extèrieur de / En dehors de",
     "category": "orientation"
   },
   {
@@ -971,7 +1088,7 @@
   },
   {
     "pt": "Perto de",
-    "fr": "Pr�s de",
+    "fr": "Près de",
     "category": "orientation"
   },
   {
@@ -990,8 +1107,8 @@
     "category": "physiquemoral"
   },
   {
-    "pt": "Cabelo (s)",
-    "fr": "Cheveu (x)",
+    "pt": "Cabelo(s)",
+    "fr": "Cheveu(x)",
     "category": "physiquemoral"
   },
   {
@@ -1066,7 +1183,7 @@
   },
   {
     "pt": "Encaracolado",
-    "fr": "Boucl�",
+    "fr": "Bouclé",
     "category": "physiquemoral"
   },
   {
@@ -1076,7 +1193,7 @@
   },
   {
     "pt": "Castanho",
-    "fr": "Ch�tain/brun",
+    "fr": "Châtain/brun",
     "category": "physiquemoral"
   },
   {
@@ -1091,7 +1208,7 @@
   },
   {
     "pt": "Usar roupa",
-    "fr": "Porter des v�tements",
+    "fr": "Porter des vêtements",
     "category": "physiquemoral"
   },
   {
@@ -1106,11 +1223,11 @@
   },
   {
     "pt": "Desorganizado",
-    "fr": "D�sorganis�",
+    "fr": "Désorganisé",
     "category": "physiquemoral"
   },
   {
-    "pt": "Est�pido",
+    "pt": "Estùpido",
     "fr": "Stupide",
     "category": "physiquemoral"
   },
@@ -1131,26 +1248,26 @@
   },
   {
     "pt": "Organizado",
-    "fr": "Organis�",
+    "fr": "Organisé",
     "category": "physiquemoral"
   },
   {
-    "pt": "Pregui�oso",
+    "pt": "Preguiçoso",
     "fr": "Paresseux",
     "category": "physiquemoral"
   },
   {
-    "pt": "S�rio",
-    "fr": "S�rieux",
+    "pt": "Sério",
+    "fr": "Sérieux",
     "category": "physiquemoral"
   },
   {
-    "pt": "Soci�vel",
+    "pt": "Sociàvel",
     "fr": "Sociable",
     "category": "physiquemoral"
   },
   {
-    "pt": "T�mido",
+    "pt": "tímido",
     "fr": "Timide",
     "category": "physiquemoral"
   },
@@ -1160,33 +1277,8 @@
     "category": "physiquemoral"
   },
   {
-    "pt": "En",
-    "fr": "o meu/minha",
-    "category": "possessif"
-  },
-  {
-    "pt": "Tu",
-    "fr": "o ten/tua",
-    "category": "possessif"
-  },
-  {
-    "pt": "Ele/Ela/Voc�",
-    "fr": "o seu/sua",
-    "category": "possessif"
-  },
-  {
-    "pt": "Nos",
-    "fr": "o nosso/nossa",
-    "category": "possessif"
-  },
-  {
-    "pt": "Eles/Elas/Voc�s",
-    "fr": "o seu/sua",
-    "category": "possessif"
-  },
-  {
     "pt": "Cedo",
-    "fr": "T�t",
+    "fr": "Tôt",
     "category": "temps"
   },
   {
@@ -1206,7 +1298,7 @@
   },
   {
     "pt": "Encolorado",
-    "fr": "Ensoleill�",
+    "fr": "Ensoleillé",
     "category": "temps"
   },
   {
