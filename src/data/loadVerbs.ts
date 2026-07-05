@@ -1,6 +1,6 @@
 export type Pronoun = "eu" | "tu" | "ele" | "nos" | "eles";
 
-export type Tense = "present" | "passe" | "futur";
+export type Tense = "presente" | "passado" | "futuro";
 
 export interface Verb {
   infinitive: string;
