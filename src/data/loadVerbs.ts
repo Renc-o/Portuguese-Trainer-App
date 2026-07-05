@@ -1,6 +1,6 @@
 export type Pronoun = "eu" | "tu" | "ele" | "nos" | "eles";
 
-export type Tense = "present" | "passeCompose" | "futur";
+export type Tense = "present" | "passe" | "futur";
 
 export interface Verb {
   infinitive: string;
@@ -14,14 +14,19 @@ const URL =
 /**
  * Charge les verbes depuis GitHub
  */
-export async function loadVerbs(): Promise<Verb[]> {
+export async function loadVerbs() {
   const response = await fetch(URL);
 
   if (!response.ok) {
     throw new Error("Impossible de charger les verbes");
   }
 
-  return await response.json();
+  const data = await response.json();
+
+  console.log("RAW DATA:", data);
+
+  // 🔥 force array
+  return Array.isArray(data) ? data : [data];
 }
 
 /**
