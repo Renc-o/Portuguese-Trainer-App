@@ -3,21 +3,21 @@
     "infinitive": "Ser",
     "group": 0,
     "conjugations": {
-      "present": {
+      "presente": {
         "eu": "sou",
         "tu": "es",
         "ele": "é",
         "nos": "somos",
         "eles": "são"
       },
-      "passe": {
+      "passado": {
         "eu": "fui",
         "tu": "foste",
         "ele": "foi",
         "nos": "fomos",
         "eles": "foram"
       },
-      "futur": {
+      "futuro": {
         "eu": "serei",
         "tu": "serás",
         "ele": "será",
@@ -30,21 +30,21 @@
     "infinitive": "Ter",
     "group": 0,
     "conjugations": {
-      "present": {
+      "presente": {
         "eu": "tenho",
         "tu": "tens",
         "ele": "tem",
         "nos": "temos",
         "eles": "têm"
       },
-      "passe": {
+      "passado": {
         "eu": "tinha",
         "tu": "tinhas",
         "ele": "tinha",
         "nos": "tinhamos",
         "eles": "tinham"
       },
-      "futur": {
+      "futuro": {
         "eu": "terei",
         "tu": "terás",
         "ele": "terá",
@@ -57,21 +57,21 @@
     "infinitive": "Tomar",
     "group": 0,
     "conjugations": {
-      "present": {
+      "presente": {
         "eu": "tomo",
         "tu": "tomas",
         "ele": "toma",
         "nos": "tomamos",
         "eles": "tomam"
       },
-      "passe": {
+      "passado": {
         "eu": "tomei",
         "tu": "tomaste",
         "ele": "tomou",
         "nos": "tomamos",
         "eles": "tomaram"
       },
-      "futur": {
+      "futuro": {
         "eu": "tomarei",
         "tu": "tomarás",
         "ele": "tomará",

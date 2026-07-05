@@ -1,3 +1,4 @@
+import { router } from "expo-router";
 import { useEffect, useState } from "react";
 import {
   ScrollView,
@@ -8,7 +9,6 @@ import {
   useColorScheme,
   View,
 } from "react-native";
-
 import { loadVerbs, Verb } from "../data/loadVerbs";
 
 /**
@@ -98,7 +98,7 @@ useEffect(() => {
   const checkAnswers = () => {
     if (!verb) return;
 
-    const correct = verb.conjugations.present;
+    const correct = verb.conjugations.presente;
 
     const res: ResultMap = {};
 
@@ -168,7 +168,7 @@ const next = () => {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       {/* TITRE */}
-      <Text style={styles.title}>
+      <Text style={[styles.title, { color: colors.text }]}>
         {capitalize(verb.infinitive)}
       </Text>
 
@@ -178,10 +178,10 @@ const next = () => {
       <View style={styles.table}>
         {pronouns.map((p) => (
           <View key={p.key} style={styles.row}>
-            <Text style={styles.pronoun}>{p.label}</Text>
+            <Text style={[styles.pronoun, { color: colors.text}]}>{p.label}</Text>
 
             <TextInput
-              style={styles.input}
+              style={[styles.input, { color: colors.text }]}
               value={answers[p.key]}
               onChangeText={(text) => handleChange(p.key, text)}
               autoCorrect={false}
@@ -207,7 +207,7 @@ const next = () => {
 
       {/* BUTTONS */}
       <TouchableOpacity style={styles.button} onPress={checkAnswers}>
-        <Text style={styles.buttonText}>Vérifier</Text>
+        <Text style={[styles.buttonText, {color: colors.text}]}>Vérifier</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
@@ -218,6 +218,16 @@ const next = () => {
           Suivant
         </Text>
       </TouchableOpacity>
+
+      {/* Tous les verbes */}
+        <TouchableOpacity
+          onPress={() => router.push("/AllVerbs")}
+          style={[styles.button, { backgroundColor: colors.buttonBg }]}
+        >
+          <Text style={[styles.buttonText, { color: colors.text }]}>
+            Tous les verbes
+          </Text>
+        </TouchableOpacity>
     </ScrollView>
   );
 }
@@ -232,7 +242,7 @@ const styles = StyleSheet.create({
   subtitle: { fontSize: 18, marginBottom: 20, color: "gray" },
   table: { width: "100%" },
   row: { flexDirection: "row", alignItems: "center", marginBottom: 12 },
-  pronoun: { width: 120, fontSize: 16 },
+  pronoun: { width: 120, fontSize: 16, },
   input: {
     flex: 1,
     borderWidth: 1,
