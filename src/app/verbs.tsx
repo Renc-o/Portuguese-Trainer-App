@@ -1,5 +1,5 @@
 import { router } from "expo-router";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   ScrollView,
   StyleSheet,
@@ -33,10 +33,26 @@ type ResultMap = Record<
   }
 >;
 
+const tenses = ["presente", "passado", "futuro"] as const;
+
+const tenseLabels = {
+  presente: "Presente",
+  passado: "Passado",
+  futuro: "Futuro",
+};
+
+type Filter = "all" | "presente" | "passado" | "futuro";
+
 export default function PlayScreen() {
-const [verbs, setVerbs] = useState<Verb[]>([]);
-const [currentIndex, setCurrentIndex] = useState(0);
-const [verb, setVerb] = useState<Verb | null>(null);
+  const inputRefs = useRef<Record<string, TextInput | null>>({});
+  const [verbs, setVerbs] = useState<Verb[]>([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [verb, setVerb] = useState<Verb | null>(null);
+
+  const [tense, setTense] =
+    useState<(typeof tenses)[number]>("presente");
+
+  const [filter, setFilter] = useState<Filter>("all");
 
   const [answers, setAnswers] = useState<Answers>({
     eu: "",
@@ -56,31 +72,34 @@ const [verb, setVerb] = useState<Verb | null>(null);
     text: isDark ? "#fff" : "#000",
     input: isDark ? "#2a2a2a" : "#fff",
     border: isDark ? "#444" : "#ccc",
-    buttonBg: isDark ? "#2a2a2a" : "#e6e6e6",
+    buttonBg: isDark ? "#2a2a2a" : "#363636",
+    subtitle: isDark ? "#9e9e9e" : "#444",
   };
 
   /**
    * LOAD VERBS
    */
-useEffect(() => {
-  async function init() {
-    const data = await loadVerbs();
+  useEffect(() => {
+    async function init() {
+      const data = await loadVerbs();
+      setVerbs(data);
 
-    console.log("Verbes chargés :", data);
+      if (data.length === 0) return;
 
-    setVerbs(data);
+      const first = Math.floor(Math.random() * data.length);
 
-    const first = Math.floor(Math.random() * data.length);
+      const randomTense =
+        filter === "all"
+          ? tenses[Math.floor(Math.random() * tenses.length)]
+          : filter;
 
-    console.log("Premier index :", first);
-    console.log("Premier verbe :", data[first].infinitive);
+      setCurrentIndex(first);
+      setVerb(data[first]);
+      setTense(randomTense);
+    }
 
-    setCurrentIndex(first);
-    setVerb(data[first]);
-  }
-
-  init();
-}, []);
+    init();
+  }, []);
 
   /**
    * INPUT
@@ -98,8 +117,7 @@ useEffect(() => {
   const checkAnswers = () => {
     if (!verb) return;
 
-    const correct = verb.conjugations.presente;
-
+    const correct = verb.conjugations[tense];
     const res: ResultMap = {};
 
     pronouns.forEach((p) => {
@@ -120,39 +138,34 @@ useEffect(() => {
   /**
    * NEXT VERB
    */
-const next = () => {
-  console.log("----------- NEXT -----------");
-  console.log("Nombre de verbes :", verbs.length);
-  console.log("Index actuel :", currentIndex);
-  console.log("Verbe actuel :", verb?.infinitive);
+  const next = () => {
+    if (verbs.length === 0) return;
 
-  if (verbs.length === 0) {
-    console.log("Aucun verbe chargé");
-    return;
-  }
+    let randomIndex = Math.floor(Math.random() * verbs.length);
 
-  let randomIndex = Math.floor(Math.random() * verbs.length);
+    while (verbs.length > 1 && randomIndex === currentIndex) {
+      randomIndex = Math.floor(Math.random() * verbs.length);
+    }
 
-  while (verbs.length > 1 && randomIndex === currentIndex) {
-    randomIndex = Math.floor(Math.random() * verbs.length);
-  }
+    const randomTense =
+      filter === "all"
+        ? tenses[Math.floor(Math.random() * tenses.length)]
+        : filter;
 
-  console.log("Nouvel index :", randomIndex);
-  console.log("Nouveau verbe :", verbs[randomIndex].infinitive);
+    setCurrentIndex(randomIndex);
+    setVerb(verbs[randomIndex]);
+    setTense(randomTense);
 
-  setCurrentIndex(randomIndex);
-  setVerb(verbs[randomIndex]);
+    setAnswers({
+      eu: "",
+      tu: "",
+      ele: "",
+      nos: "",
+      eles: "",
+    });
 
-  setAnswers({
-    eu: "",
-    tu: "",
-    ele: "",
-    nos: "",
-    eles: "",
-  });
-
-  setResult({});
-};
+    setResult({});
+  };
 
   const capitalize = (word?: string) =>
     word ? word.charAt(0).toUpperCase() + word.slice(1) : "";
@@ -166,27 +179,100 @@ const next = () => {
   }
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
+    <ScrollView 
+      style={{ backgroundColor: colors.background }}
+      contentContainerStyle={styles.container}    
+      >
+
+      {/* FILTRES */}
+      <View style={styles.filters}>
+
+        <TouchableOpacity
+          onPress={() => setFilter("all")}
+          style={[
+            styles.filterBtn,
+            { backgroundColor: filter === "all" ? "#007AFF" : colors.buttonBg },
+          ]}
+        >
+          <Text style={styles.filterText}>Todos</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          onPress={() => setFilter("presente")}
+          style={[
+            styles.filterBtn,
+            { backgroundColor: filter === "presente" ? "#34C759" : colors.buttonBg },
+          ]}
+        >
+          <Text style={styles.filterText}>Presente</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          onPress={() => setFilter("passado")}
+          style={[
+            styles.filterBtn,
+            { backgroundColor: filter === "passado" ? "#34C759" : colors.buttonBg },
+          ]}
+        >
+          <Text style={styles.filterText}>Passado</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          onPress={() => setFilter("futuro")}
+          style={[
+            styles.filterBtn,
+            { backgroundColor: filter === "futuro" ? "#34C759" : colors.buttonBg },
+          ]}
+        >
+          <Text style={styles.filterText}>Futuro</Text>
+        </TouchableOpacity>
+
+      </View>
+
       {/* TITRE */}
       <Text style={[styles.title, { color: colors.text }]}>
         {capitalize(verb.infinitive)}
       </Text>
 
-      <Text style={styles.subtitle}>Présent</Text>
+      <Text style={[styles.subtitle, { color: colors.subtitle }]}>
+        {tenseLabels[tense]}
+      </Text>
 
       {/* TABLE */}
       <View style={styles.table}>
         {pronouns.map((p) => (
           <View key={p.key} style={styles.row}>
-            <Text style={[styles.pronoun, { color: colors.text}]}>{p.label}</Text>
+            <Text style={[styles.pronoun, { color: colors.text }]}>
+              {p.label}
+            </Text>
 
             <TextInput
+              ref={(ref) => {
+                inputRefs.current[p.key] = ref;
+              }}
+              keyboardType="visible-password"
               style={[styles.input, { color: colors.text }]}
               value={answers[p.key]}
               onChangeText={(text) => handleChange(p.key, text)}
               autoCorrect={false}
               autoCapitalize="none"
               spellCheck={false}
+              textContentType="none"
+              autoComplete="off"
+              returnKeyType="next"
+              onSubmitEditing={() => {
+                const order = ["eu", "tu", "ele", "nos", "eles"] as const;
+
+                const currentIndex = order.indexOf(p.key);
+                const nextKey = order[currentIndex + 1];
+
+                if (nextKey) {
+                  inputRefs.current[nextKey]?.focus();
+                } else {
+                  // dernier input → vérifier
+                  checkAnswers();
+                }
+              }}
             />
 
             {result[p.key] && (
@@ -206,28 +292,24 @@ const next = () => {
       </View>
 
       {/* BUTTONS */}
-      <TouchableOpacity style={styles.button} onPress={checkAnswers}>
-        <Text style={[styles.buttonText, {color: colors.text}]}>Vérifier</Text>
+      <TouchableOpacity style={[styles.button, {backgroundColor: colors.buttonBg}]} onPress={checkAnswers}>
+        <Text style={styles.buttonText}>Vérifier</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
         onPress={next}
         style={[styles.button, { backgroundColor: colors.buttonBg }]}
       >
-        <Text style={[styles.buttonText, { color: colors.text }]}>
-          Suivant
-        </Text>
+        <Text style={styles.buttonText}>Suivant</Text>
       </TouchableOpacity>
 
-      {/* Tous les verbes */}
-        <TouchableOpacity
-          onPress={() => router.push("/AllVerbs")}
-          style={[styles.button, { backgroundColor: colors.buttonBg }]}
-        >
-          <Text style={[styles.buttonText, { color: colors.text }]}>
-            Tous les verbes
-          </Text>
-        </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => router.push("/AllVerbs")}
+        style={[styles.button, { backgroundColor: colors.buttonBg }]}
+      >
+        <Text style={styles.buttonText}>Tous les verbes</Text>
+      </TouchableOpacity>
+
     </ScrollView>
   );
 }
@@ -237,12 +319,35 @@ const next = () => {
  */
 const styles = StyleSheet.create({
   container: { padding: 20, paddingTop: 80 },
+
   center: { flex: 1, justifyContent: "center", alignItems: "center" },
-  title: { fontSize: 28, fontWeight: "700", marginBottom: 10 },
-  subtitle: { fontSize: 18, marginBottom: 20, color: "gray" },
-  table: { width: "100%" },
-  row: { flexDirection: "row", alignItems: "center", marginBottom: 12 },
-  pronoun: { width: 120, fontSize: 16, },
+
+  title: {
+    fontSize: 28,
+    fontWeight: "700",
+    marginBottom: 10,
+  },
+
+  subtitle: {
+    fontSize: 18,
+    marginBottom: 20,
+  },
+
+  table: {
+    width: "100%",
+  },
+
+  row: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: 12,
+  },
+
+  pronoun: {
+    width: 120,
+    fontSize: 16,
+  },
+
   input: {
     flex: 1,
     borderWidth: 1,
@@ -250,6 +355,7 @@ const styles = StyleSheet.create({
     padding: 12,
     borderRadius: 8,
   },
+
   button: {
     marginTop: 15,
     backgroundColor: "black",
@@ -257,9 +363,27 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     alignItems: "center",
   },
+
   buttonText: {
     color: "white",
     fontSize: 16,
+    fontWeight: "600",
+  },
+
+  filters: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 10,
+    marginBottom: 20,
+  },
+
+  filterBtn: {
+    padding: 10,
+    borderRadius: 8,
+  },
+
+  filterText: {
+    color: "white",
     fontWeight: "600",
   },
 });

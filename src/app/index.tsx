@@ -121,32 +121,6 @@ export default function Home() {
             </Text>
           </TouchableOpacity>
 
-        {/* Bouton Suggestion */}
-          <View
-          style={{
-            width: "100%",
-            marginTop: 15,
-          }}
-          >
-          <TouchableOpacity
-            onPress={() => router.push("/suggestion-mots")}
-            style={[
-              styles.button,
-              {
-                backgroundColor: colors.buttonBg,
-              },
-            ]}
-          >
-            <Text
-              style={[
-                styles.buttonText,
-                { color: colors.text },
-              ]}
-            >
-              Suggestions
-            </Text>
-          </TouchableOpacity>
-          </View>
         {/* Bouton Verbes */}
           <View
           style={{
@@ -170,6 +144,33 @@ export default function Home() {
               ]}
             >
               📋 Verbes
+            </Text>
+          </TouchableOpacity>
+          </View>
+        
+        {/* Bouton Suggestion */}
+          <View
+          style={{
+            width: "100%",
+            marginTop: 15,
+          }}
+          >
+          <TouchableOpacity
+            onPress={() => router.push("/suggestion-mots")}
+            style={[
+              styles.button,
+              {
+                backgroundColor: colors.buttonBg,
+              },
+            ]}
+          >
+            <Text
+              style={[
+                styles.buttonText,
+                { color: colors.text },
+              ]}
+            >
+              Suggestions
             </Text>
           </TouchableOpacity>
           </View>
