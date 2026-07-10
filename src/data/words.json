@@ -1310,5 +1310,85 @@
     "pt": "Neve",
     "fr": "Neige",
     "category": "temps"
+  },
+  {
+    "pt": "Camise",
+    "fr": "Chemise",
+    "category": "vetements"
+  },
+  {
+    "pt": "Camiseta",
+    "fr": "Tshirt",
+    "category": "vetements"
+  },
+  {
+    "pt": "Calças",
+    "fr": "Pantalon",
+    "category": "vetements"
+  },
+  {
+    "pt": "Chaussettes",
+    "fr": "Meias",
+    "category": "vetements"
+  },
+  {
+    "pt": "Sapatos",
+    "fr": "Chaussures",
+    "category": "vetements"
+  },
+  {
+    "pt": "Boné",
+    "fr": "Casquette",
+    "category": "vetements"
+  },
+  {
+    "pt": "Gorro",
+    "fr": "Bonnet",
+    "category": "vetements"
+  },
+  {
+    "pt": "Casaco",
+    "fr": "Manteau",
+    "category": "vetements"
+  },
+  {
+    "pt": "Camise",
+    "fr": "Chemise",
+    "category": "vetements"
+  },
+  {
+    "pt": "Relógio",
+    "fr": "Montre",
+    "category": "vetements"
+  },
+  {
+    "pt": "Pulseira",
+    "fr": "Bracelet",
+    "category": "vetements"
+  },
+  {
+    "pt": "Joias",
+    "fr": "Bijoux",
+    "category": "vetements"
+  },
+  {
+    "pt": "Anéis",
+    "fr": "Bagues",
+    "category": "vetements"
+  },
+  {
+    "pt": "Cinto",
+    "fr": "Ceinture",
+    "category": "vetements"
+  },
+  {
+    "pt": "Cueca",
+    "fr": "Caleçon",
+    "category": "vetements"
+  },
+  {
+    "pt": "Óculos",
+    "fr": "Lunettes",
+    "category": "vetements"
   }
 ]
