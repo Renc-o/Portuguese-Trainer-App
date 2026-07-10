@@ -45,7 +45,8 @@ export default function App() {
       banquedemots: "Banque de Mots",
       corpshumain: "Corps Humain",
       nombresordinaux: "Nombres Ordinaux",
-      physiquemoral: "Physique et Moral"
+      physiquemoral: "Physique et Moral",
+      vetements: "Vêtements"
     };
     data.forEach((word) => {
       if (word.category && !labels[word.category]) {
