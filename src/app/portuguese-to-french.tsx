@@ -46,7 +46,8 @@ export default function App() {
       corpshumain: "Corps Humain",
       nombresordinaux: "Nombres Ordinaux",
       physiquemoral: "Physique et Moral",
-      vetements: "Vêtements"
+      vetements: "Vêtements",
+      transport: "Transport"
     };
     data.forEach((word) => {
       if (word.category && !labels[word.category]) {
