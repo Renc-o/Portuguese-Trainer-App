@@ -1390,5 +1390,90 @@
     "pt": "Óculos",
     "fr": "Lunettes",
     "category": "vetements"
+  },
+  {
+    "pt": "Jeito",
+    "fr": "Chemin",
+    "category": "banquedemots"
+  },
+  {
+    "pt": "Carro",
+    "fr": "Voiture",
+    "category": "transport"
+  },
+  {
+    "pt": "Moto",
+    "fr": "Moto",
+    "category": "transport"
+  },
+  {
+    "pt": "Autocarro",
+    "fr": "Bus",
+    "category": "transport"
+  },
+  {
+    "pt": "Bicicleta",
+    "fr": "Vélo",
+    "category": "transport"
+  },
+  {
+    "pt": "Trote",
+    "fr": "Trotinette",
+    "category": "transport"
+  },
+  {
+    "pt": "Skate",
+    "fr": "SKateboard",
+    "category": "transport"
+  },
+  {
+    "pt": "Táxi",
+    "fr": "Taxi",
+    "category": "transport"
+  },
+  {
+    "pt": "Avião",
+    "fr": "Avion",
+    "category": "transport"
+  },
+  {
+    "pt": "Comboio",
+    "fr": "Train",
+    "category": "transport"
+  },
+  {
+    "pt": "Metro",
+    "fr": "Métro",
+    "category": "transport"
+  },
+  {
+    "pt": "Barco",
+    "fr": "Bâteau",
+    "category": "transport"
+  },
+  {
+    "pt": "Camião",
+    "fr": "Camion",
+    "category": "transport"
+  },
+  {
+    "pt": "Autocaravana",
+    "fr": "Camping-car",
+    "category": "transport"
+  },
+  {
+    "pt": "Estrada",
+    "fr": "Route",
+    "category": "transport"
+  },
+  {
+    "pt": "Autoestrada",
+    "fr": "Autoroute",
+    "category": "transport"
+  },
+  {
+    "pt": "Caminho",
+    "fr": "Chemin",
+    "category": "transport"
   }
 ]
