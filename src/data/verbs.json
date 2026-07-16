@@ -79,5 +79,113 @@
         "eles": "tomarão"
       }
     }
+  },
+  {
+    "infinitive": "Ir",
+    "group": 0,
+    "conjugations": {
+      "presente": {
+        "eu": "vou",
+        "tu": "vais",
+        "ele": "vai",
+        "nos": "vamos",
+        "eles": "vão"
+      },
+      "passado": {
+        "eu": "fui",
+        "tu": "foste",
+        "ele": "foi",
+        "nos": "fomos",
+        "eles": "foram"
+      },
+      "futuro": {
+        "eu": "irei",
+        "tu": "irás",
+        "ele": "irá",
+        "nos": "iremos",
+        "eles": "irão"
+      }
+    }
+  },
+  {
+    "infinitive": "Dever",
+    "group": 0,
+    "conjugations": {
+      "presente": {
+        "eu": "devo",
+        "tu": "deves",
+        "ele": "deve",
+        "nos": "devemos",
+        "eles": "devem"
+      },
+      "passado": {
+        "eu": "devi",
+        "tu": "deveste",
+        "ele": "deveu",
+        "nos": "devemos",
+        "eles": "deveram"
+      },
+      "futuro": {
+        "eu": "deverei",
+        "tu": "deverás",
+        "ele": "deverá",
+        "nos": "deveremos",
+        "eles": "deverão"
+      }
+    }
+  },
+  {
+    "infinitive": "Poder",
+    "group": 0,
+    "conjugations": {
+      "presente": {
+        "eu": "posso",
+        "tu": "podes",
+        "ele": "pode",
+        "nos": "podemos",
+        "eles": "podem"
+      },
+      "passado": {
+        "eu": "pude",
+        "tu": "pudeste",
+        "ele": "pôde",
+        "nos": "pudemos",
+        "eles": "puderam"
+      },
+      "futuro": {
+        "eu": "poderei",
+        "tu": "poderás",
+        "ele": "poderá",
+        "nos": "poderemos",
+        "eles": "poderão"
+      }
+    }
+  },
+  {
+    "infinitive": "Comer",
+    "group": 0,
+    "conjugations": {
+      "presente": {
+        "eu": "como",
+        "tu": "comes",
+        "ele": "come",
+        "nos": "comemos",
+        "eles": "comem"
+      },
+      "passado": {
+        "eu": "comi",
+        "tu": "comeste",
+        "ele": "comeu",
+        "nos": "comemos",
+        "eles": "comeram"
+      },
+      "futuro": {
+        "eu": "comerei",
+        "tu": "comerás",
+        "ele": "comerá",
+        "nos": "comeremos",
+        "eles": "comerão"
+      }
+    }
   }
 ]
