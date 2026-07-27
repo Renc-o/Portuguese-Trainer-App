@@ -187,5 +187,113 @@
         "eles": "comerão"
       }
     }
+  },
+  {
+    "infinitive": "Dizer",
+    "group": 0,
+    "conjugations": {
+      "presente": {
+        "eu": "digo",
+        "tu": "dizes",
+        "ele": "diz",
+        "nos": "dizemos",
+        "eles": "dizem"
+      },
+      "passado": {
+        "eu": "disse",
+        "tu": "disseste",
+        "ele": "disse",
+        "nos": "dissemos",
+        "eles": "disseram"
+      },
+      "futuro": {
+        "eu": "direi",
+        "tu": "dirás",
+        "ele": "dirá",
+        "nos": "diríamos",
+        "eles": "diriam"
+      }
+    }
+  },
+  {
+    "infinitive": "Fazer",
+    "group": 0,
+    "conjugations": {
+      "presente": {
+        "eu": "faço",
+        "tu": "fazes",
+        "ele": "faz",
+        "nos": "fazemos",
+        "eles": "fazem"
+      },
+      "passado": {
+        "eu": "fiz",
+        "tu": "fizeste",
+        "ele": "fez",
+        "nos": "fizemos",
+        "eles": "fizeram"
+      },
+      "futuro": {
+        "eu": "farei",
+        "tu": "farias",
+        "ele": "faria",
+        "nos": "faríamos",
+        "eles": "fariam"
+      }
+    }
+  },
+  {
+    "infinitive": "Accompagnar",
+    "group": 0,
+    "conjugations": {
+      "presente": {
+        "eu": "acompanho",
+        "tu": "acompanhas",
+        "ele": "acompanha",
+        "nos": "acompanhamos",
+        "eles": "acompanham"
+      },
+      "passado": {
+        "eu": "acompanhei",
+        "tu": "acompanhaste",
+        "ele": "acompanhou",
+        "nos": "acompanhamos",
+        "eles": "acompanharam"
+      },
+      "futuro": {
+        "eu": "acompanharei",
+        "tu": "acompanharás",
+        "ele": "acompanhará",
+        "nos": "acompanharemos",
+        "eles": "acompanharão"
+      }
+    }
+  },
+  {
+    "infinitive": "Chegar",
+    "group": 0,
+    "conjugations": {
+      "presente": {
+        "eu": "chego",
+        "tu": "chegas",
+        "ele": "chega",
+        "nos": "chegamos",
+        "eles": "chegam"
+      },
+      "passado": {
+        "eu": "cheguei",
+        "tu": "chegaste",
+        "ele": "chegou",
+        "nos": "chegamos",
+        "eles": "chegaram"
+      },
+      "futuro": {
+        "eu": "chegarei",
+        "tu": "chegarás",
+        "ele": "chegará",
+        "nos": "chegaremos",
+        "eles": "chegarão"
+      }
+    }
   }
 ]
