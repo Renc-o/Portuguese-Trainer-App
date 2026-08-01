@@ -46,6 +46,7 @@ export default function App() {
       corpshumain: "Corps Humain",
       nombresordinaux: "Nombres Ordinaux",
       physiquemoral: "Physique et Moral",
+      verbe: "Verbe",
       vetements: "Vêtements",
       transport: "Transport"
     };
