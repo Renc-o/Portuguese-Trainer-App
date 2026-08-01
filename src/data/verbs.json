@@ -295,5 +295,33 @@
         "eles": "chegarão"
       }
     }
+  },
+  },
+  {
+    "infinitive": "Procurar",
+    "group": 0,
+    "conjugations": {
+      "presente": {
+        "eu": "procuro",
+        "tu": "procuras",
+        "ele": "procura",
+        "nos": "procuramos",
+        "eles": "procuram"
+      },
+      "passado": {
+        "eu": "procurei",
+        "tu": "procuraste",
+        "ele": "procurou",
+        "nos": "procuramos",
+        "eles": "procuraram"
+      },
+      "futuro": {
+        "eu": "procurarei,
+        "tu": "procurarás",
+        "ele": "procurará",
+        "nos": "procuraremos",
+        "eles": "procurarão"
+      }
+    }
   }
 ]
