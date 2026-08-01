@@ -110,26 +110,6 @@
     "category": "banquedemots"
   },
   {
-    "pt": "Levantar-se",
-    "fr": "Se lever",
-    "category": "banquedemots"
-  },
-  {
-    "pt": "Passar-se",
-    "fr": "Se passer",
-    "category": "banquedemots"
-  },
-  {
-    "pt": "Situar-se",
-    "fr": "Se situer",
-    "category": "banquedemots"
-  },
-  {
-    "pt": "Lembrar-se",
-    "fr": "se rappeler",
-    "category": "banquedemots"
-  },
-  {
     "pt": "Chuvar",
     "fr": "Pleuvoir",
     "category": "banquedemots"
@@ -1475,5 +1455,189 @@
     "pt": "Caminho",
     "fr": "Chemin",
     "category": "transport"
+  },
+  {
+    "pt": "Ser",
+    "fr": "Être",
+    "category": "verbe"
+  },
+  {
+    "pt": "Ter",
+    "fr": "Avoir",
+    "category": "verbe"
+  },
+  {
+    "pt": "Tomar",
+    "fr": "Prendre",
+    "category": "verbe"
+  },
+  {
+    "pt": "Procurar",
+    "fr": "Rechercher",
+    "category": "verbe"
+  },
+  {
+    "pt": "Lembrar-se",
+    "fr": "Se rappeler",
+    "category": "verbe"
+  },
+  {
+    "pt": "Ir",
+    "fr": "Aller",
+    "category": "verbe"
+  },
+  {
+    "pt": "Ver",
+    "fr": "Voir",
+    "category": "verbe"
+  },
+  {
+    "pt": "Vir",
+    "fr": "Venir",
+    "category": "verbe"
+  },
+  {
+    "pt": "Vestir-se",
+    "fr": "S'habiller",
+    "category": "verbe"
+  },
+  {
+    "pt": "Comprar",
+    "fr": "Acheter",
+    "category": "verbe"
+  },
+  {
+    "pt": "Vender",
+    "fr": "Vendre",
+    "category": "verbe"
+  },
+  {
+    "pt": "Ter",
+    "fr": "Avoir",
+    "category": "verbe"
+  },
+  {
+    "pt": "Falar",
+    "fr": "Parler",
+    "category": "verbe"
+  },
+  {
+    "pt": "Discutir",
+    "fr": "Discuter",
+    "category": "verbe"
+  },
+  {
+    "pt": "Mexer-se",
+    "fr": "Avoir",
+    "category": "verbe"
+  },
+  {
+    "pt": "Poder",
+    "fr": "Pouvoir",
+    "category": "verbe"
+  },
+  {
+    "pt": "Dever",
+    "fr": "Devoir",
+    "category": "verbe"
+  },
+  {
+    "pt": "Calar-se",
+    "fr": "Se taire",
+    "category": "verbe"
+  },
+  {
+    "pt": "Ter",
+    "fr": "Avoir",
+    "category": "verbe"
+  {
+    "pt": "Levantar-se",
+    "fr": "Se lever",
+    "category": "verbe"
+  },
+  {
+    "pt": "Passar-se",
+    "fr": "Se passer",
+    "category": "verbe"
+  },
+  {
+    "pt": "Situar-se",
+    "fr": "Se situer",
+    "category": "verbe"
+  },
+  {
+    "pt": "Levantar-se",
+    "fr": "Se lever",
+    "category": "verbe"
+  },
+  {
+    "pt": "Passar-se",
+    "fr": "Se passer",
+    "category": "verbe"
+  },
+  {
+    "pt": "Trazer",
+    "fr": "Amener",
+    "category": "verbe"
+  },
+  {
+    "pt": "Mudar",
+    "fr": "Changer",
+    "category": "verbe"
+  },
+  {
+    "pt": "Trazer",
+    "fr": "Amener",
+    "category": "verbe"
+  },
+  {
+    "pt": "Sofrer",
+    "fr": "Souffrir",
+    "category": "verbe"
+  },
+  {
+    "pt": "Gostar",
+    "fr": "Aimer",
+    "category": "verbe"
+  },
+  {
+    "pt": "Abrir",
+    "fr": "Ouvrir",
+    "category": "verbe"
+  },
+  {
+    "pt": "Chamar",
+    "fr": "Appeler",
+    "category": "verbe"
+  },
+  {
+    "pt": "Escrivir",
+    "fr": "Écrire",
+    "category": "verbe"
+  },
+  {
+    "pt": "Leer",
+    "fr": "Lire",
+    "category": "verbe"
+  },
+  {
+    "pt": "Chegar",
+    "fr": "Arriver",
+    "category": "verbe"
+  },
+  {
+    "pt": "Encomendar",
+    "fr": "Commander",
+    "category": "verbe"
+  },
+  {
+    "pt": "Pedir",
+    "fr": "Demander",
+    "category": "verbe"
+  },
+  {
+    "pt": "Beber",
+    "fr": "Boire",
+    "category": "verbe"
   }
 ]
