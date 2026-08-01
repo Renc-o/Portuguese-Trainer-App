@@ -47,7 +47,7 @@ export default function App() {
       nombresordinaux: "Nombres Ordinaux",
       physiquemoral: "Physique et Moral",
       vetement: "Vêtement",
-      verbe: "Verbe"
+      verbe: "Verbe",
       transport: "Transport"
     };
     data.forEach((word) => {
