@@ -1528,7 +1528,7 @@
   },
   {
     "pt": "Mexer-se",
-    "fr": "Avoir",
+    "fr": "Se bouger",
     "category": "verbe"
   },
   {
@@ -1549,11 +1549,6 @@
   {
     "pt": "Ter",
     "fr": "Avoir",
-    "category": "verbe"
-  },
-  {
-    "pt": "Levantar-se",
-    "fr": "Se lever",
     "category": "verbe"
   },
   {
