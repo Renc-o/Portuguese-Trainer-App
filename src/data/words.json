@@ -41,7 +41,7 @@
   },
   {
     "pt": "Brincar",
-    "fr": "Jouer/s'amuser",
+    "fr": "S'amuser",
     "category": "activite"
   },
   {
@@ -50,34 +50,39 @@
     "category": "activite"
   },
   {
-    "pt": "Tocar guitara/piano",
-    "fr": "Jouer de Ia guitare/piano",
+    "pt": "Tocar guitara",
+    "fr": "Jouer de Ia guitare",
+    "category": "activite"
+  },
+  {
+    "pt": "Tocar piano",
+    "fr": "Jouer du piano",
     "category": "activite"
   },
   {
     "pt": "Comprar",
     "fr": "Acheter",
-    "category": "banquedemots"
+    "category": "verbe"
   },
   {
     "pt": "Estudar",
     "fr": "Etudier",
-    "category": "banquedemots"
+    "category": "verbe"
   },
   {
     "pt": "Interessar-se",
     "fr": "S'intéresser",
-    "category": "banquedemots"
+    "category": "verbe"
   },
   {
     "pt": "Morar",
     "fr": "Habiter",
-    "category": "banquedemots"
+    "category": "verbe"
   },
   {
     "pt": "Trabalhar",
     "fr": "Travailler",
-    "category": "banquedemots"
+    "category": "verbe"
   },
   {
     "pt": "Sim",
@@ -110,14 +115,14 @@
     "category": "banquedemots"
   },
   {
-    "pt": "Chuvar",
+    "pt": "Chuver",
     "fr": "Pleuvoir",
-    "category": "banquedemots"
+    "category": "verbe"
   },
   {
     "pt": "Morar",
     "fr": "Habiter",
-    "category": "banquedemots"
+    "category": "verbe"
   },
   {
     "pt": "Sede",
@@ -135,32 +140,32 @@
     "category": "comparaison"
   },
   {
-    "pt": "Menos... (do) que",
+    "pt": "Menos (do) que",
     "fr": "Moins que",
     "category": "comparaison"
   },
   {
-    "pt": "Tão... como",
+    "pt": "Tão como",
     "fr": "Autant que",
     "category": "comparaison"
   },
   {
-    "pt": "Bom ? Melhor",
-    "fr": "Mieux/Meilleur",
+    "pt": "Melhor",
+    "fr": "Meilleur",
     "category": "comparaison"
   },
   {
-    "pt": "Mau/mal ? Pior",
+    "pt": "Pior",
     "fr": "Pire",
     "category": "comparaison"
   },
   {
-    "pt": "Grande ? Maior",
+    "pt": "Maior",
     "fr": "Plus grand",
     "category": "comparaison"
   },
   {
-    "pt": "Pequeno ? Mais pequeno",
+    "pt": "Mais pequeno",
     "fr": "Plus petit",
     "category": "comparaison"
   },
@@ -656,8 +661,8 @@
     "category": "identite"
   },
   {
-    "pt": "Data / local de nascimento",
-    "fr": "Date/lieu de naissance",
+    "pt": "Nascimento",
+    "fr": "Naissance",
     "category": "identite"
   },
   {
@@ -713,21 +718,6 @@
   {
     "pt": "Estudante",
     "fr": "Etudiant",
-    "category": "identite"
-  },
-  {
-    "pt": "A minha nacionalidade",
-    "fr": "Ma nationalité",
-    "category": "identite"
-  },
-  {
-    "pt": "A tua nacionalidade",
-    "fr": "Ta nationalité",
-    "category": "identite"
-  },
-  {
-    "pt": "A sua nacionalidade",
-    "fr": "Sa/votre nationalité",
     "category": "identite"
   },
   {
@@ -1022,8 +1012,13 @@
     "category": "orientation"
   },
   {
-    "pt": "Ao lado de / Ao pé de",
-    "fr": "À coté de / Au pied de",
+    "pt": "Ao pé de",
+    "fr": "Au pied de",
+    "category": "orientation"
+  },
+  {
+    "pt": "Ao lado de",
+    "fr": "À coté de",
     "category": "orientation"
   },
   {
@@ -1033,7 +1028,7 @@
   },
   {
     "pt": "Debaixo de",
-    "fr": "En dessous de / Sous",
+    "fr": "En dessous de",
     "category": "orientation"
   },
   {
@@ -1042,13 +1037,13 @@
     "category": "orientation"
   },
   {
-    "pt": "Em frente de / Diante de",
+    "pt": "Em frente de",
     "fr": "Devant",
     "category": "orientation"
   },
   {
     "pt": "Em cima de",
-    "fr": "Au dessus de / sur",
+    "fr": "Au dessus de",
     "category": "orientation"
   },
   {
@@ -1058,7 +1053,7 @@
   },
   {
     "pt": "Fora de",
-    "fr": "À l'extèrieur de / En dehors de",
+    "fr": "En dehors de",
     "category": "orientation"
   },
   {
@@ -1112,18 +1107,18 @@
     "category": "physiquemoral"
   },
   {
-    "pt": "Alto/Grande",
+    "pt": "Alto",
     "fr": "Grand",
     "category": "physiquemoral"
   },
   {
-    "pt": "Baixo/Pequeno",
+    "pt": "Pequeno",
     "fr": "Petit",
     "category": "physiquemoral"
   },
   {
     "pt": "Magro",
-    "fr": "Mince/Maigre",
+    "fr": "Maigre",
     "category": "physiquemoral"
   },
   {
@@ -1173,7 +1168,7 @@
   },
   {
     "pt": "Castanho",
-    "fr": "Châtain/brun",
+    "fr": "Brun",
     "category": "physiquemoral"
   },
   {
