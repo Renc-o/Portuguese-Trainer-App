@@ -42,14 +42,14 @@ export default function App() {
   const categoryLabels = (() => {
     const labels: Record<string, string> = {
       touslesmots: "Tout",
+      astronomie: "Astronomie",
       banquedemots: "Banque de Mots",
       corpshumain: "Corps Humain",
       nombresordinaux: "Nombres Ordinaux",
       physiquemoral: "Physique et Moral",
       verbe: "Verbe",
       vetements: "Vêtements",
-      transport: "Transport",
-      astronomie: "Astronomie"
+      transport: "Transport"
     };
     data.forEach((word) => {
       if (word.category && !labels[word.category]) {
