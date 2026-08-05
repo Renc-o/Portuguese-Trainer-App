@@ -1630,5 +1630,80 @@
     "pt": "Beber",
     "fr": "Boire",
     "category": "verbe"
+  },
+  {
+    "pt": "Estrela",
+    "fr": "Étoile",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Planeta",
+    "fr": "Planète",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Universo",
+    "fr": "Univers",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Constelação",
+    "fr": "Constellation",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Sistema",
+    "fr": "Système",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Sol",
+    "fr": "Soleil",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Lua",
+    "fr": "Lune",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Astronomia",
+    "fr": "Astronomie",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Telescópio",
+    "fr": "Téléscope",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Satélite",
+    "fr": "Satellite",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Foguete",
+    "fr": "Fusée",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Telescópio",
+    "fr": "Téléscope",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Astonauta",
+    "fr": "Astronaute",
+    "category": "metiers"
+  },
+  {
+    "pt": "Meteorito",
+    "fr": "Météorite",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Asteróide",
+    "fr": "Astéroïde",
+    "category": "astronomie"
   }
 ]
