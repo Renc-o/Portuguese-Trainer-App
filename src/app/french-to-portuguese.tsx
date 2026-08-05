@@ -48,7 +48,8 @@ export default function App() {
       physiquemoral: "Physique et Moral",
       vetement: "Vêtement",
       verbe: "Verbe",
-      transport: "Transport"
+      transport: "Transport",
+      astronomie: "Astronomie"
     };
     data.forEach((word) => {
       if (word.category && !labels[word.category]) {
