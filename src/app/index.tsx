@@ -12,7 +12,6 @@ import {
 } from "react-native";
 import { checkForUpdates } from "../services/update";
 
-
 export default function Home() {
   useEffect(() => {
     checkForUpdates();
@@ -61,7 +60,7 @@ export default function Home() {
         {/* Ligne des deux boutons principaux */}
         <View style={styles.buttonsRow}>
           <TouchableOpacity
-            onPress={() => router.push("/portuguese-to-french")}
+            onPress={() => router.push("/translation")}
             style={[
               styles.button,
               { backgroundColor: colors.buttonBg, marginRight: 10 },
@@ -73,24 +72,7 @@ export default function Home() {
                 { color: colors.text },
               ]}
             >
-              🇵🇹 ➡️ 🇫🇷
-            </Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity
-            onPress={() => router.push("/french-to-portuguese")}
-            style={[
-              styles.button,
-              { backgroundColor: colors.buttonBg },
-            ]}
-          >
-            <Text
-              style={[
-                styles.buttonText,
-                { color: colors.text },
-              ]}
-            >
-              🇫🇷 ➡️ 🇵🇹
+              Translation 💬
             </Text>
           </TouchableOpacity>
         </View>
