@@ -41,7 +41,7 @@
   },
   {
     "pt": "Brincar",
-    "fr": "S'amuser",
+    "fr": ["S'amuser", "Jouer"],
     "category": "activite"
   },
   {
@@ -151,7 +151,7 @@
   },
   {
     "pt": "Melhor",
-    "fr": "Meilleur",
+    "fr": ["Meilleur", "Mieux"]
     "category": "comparaison"
   },
   {
@@ -656,6 +656,11 @@
     "category": "humeur"
   },
   {
+    "pt": "Raiva",
+    "fr": "Colère",
+    "category": "humeur"
+  },
+  {
     "pt": "Apelido",
     "fr": "Nom",
     "category": "identite"
@@ -696,13 +701,23 @@
     "category": "identite"
   },
   {
-    "pt": "Namorado(a)",
-    "fr": "Amoureux(se)",
+    "pt": "Namorado",
+    "fr": "Amoureux",
     "category": "identite"
   },
   {
-    "pt": "Solteiro(a)",
-    "fr": "Célibataire",
+    "pt": "Namorada",
+    "fr": "Amoureuse",
+    "category": "identite"
+  },
+  {
+    "pt": "Solteiro",
+    "fr": "Célibataire (Masculin)",
+    "category": "identite"
+  },
+  {
+    "pt": "Solteira",
+    "fr": "Célibataire (Féminin)",
     "category": "identite"
   },
   {
@@ -711,8 +726,13 @@
     "category": "identite"
   },
   {
-    "pt": "Enfermeiro(a)",
-    "fr": "Infirmier(e)",
+    "pt": "Enfermeiro",
+    "fr": "Infirmier",
+    "category": "identite"
+  },
+  {
+    "pt": "Enfermeira",
+    "fr": "Infirmiere",
     "category": "identite"
   },
   {
@@ -721,8 +741,13 @@
     "category": "identite"
   },
   {
-    "pt": "Argelino(a)",
-    "fr": "Algérien(e)",
+    "pt": "Argelino",
+    "fr": "Algérien",
+    "category": "identite"
+  },
+  {
+    "pt": "Argelina",
+    "fr": "Algérienne",
     "category": "identite"
   },
   {
@@ -736,8 +761,13 @@
     "category": "identite"
   },
   {
-    "pt": "Angolano(a)",
-    "fr": "Angolais(e)",
+    "pt": "Angolano",
+    "fr": "Angolais",
+    "category": "identite"
+  },
+  {
+    "pt": "Angolana",
+    "fr": "Angolaise",
     "category": "identite"
   },
   {
@@ -746,13 +776,23 @@
     "category": "identite"
   },
   {
-    "pt": "Brasileiro(a)",
-    "fr": "Brésilien(ne)",
+    "pt": "Brasileiro",
+    "fr": "Brésilien",
     "category": "identite"
   },
   {
-    "pt": "Cabo-verdiano(a)",
-    "fr": "Cap-verdien(e)",
+    "pt": "Brasileira",
+    "fr": "Brésilienne",
+    "category": "identite"
+  },
+  {
+    "pt": "Cabo-verdiano",
+    "fr": "Cap-verdien",
+    "category": "identite"
+  },
+  {
+    "pt": "Cabo-verdiana",
+    "fr": "Cap-verdienne",
     "category": "identite"
   },
   {
@@ -787,8 +827,13 @@
     "category": "identite"
   },
   {
-    "pt": "Italiano(a)",
-    "fr": "Italien(ne)",
+    "pt": "Italiano",
+    "fr": "Italien",
+    "category": "identite"
+  },
+  {
+    "pt": "Italiana",
+    "fr": "Italienne",
     "category": "identite"
   },
   {
@@ -802,8 +847,13 @@
     "category": "identite"
   },
   {
-    "pt": "Moçambicano(a)",
-    "fr": "Mozambicain(e)",
+    "pt": "Moçambicano",
+    "fr": "Mozambicain",
+    "category": "identite"
+  },
+  {
+    "pt": "Moçambicana",
+    "fr": "Mozambicaine",
     "category": "identite"
   },
   {
@@ -817,13 +867,13 @@
     "category": "identite"
   },
   {
-    "pt": "Suiço(a)",
-    "fr": "Suisse",
+    "pt": "Suiço",
+    "fr": "Suisse (Masculin)",
     "category": "identite"
   },
   {
-    "pt": "Timorense",
-    "fr": "Timorais(e)",
+    "pt": "Suiça",
+    "fr": "Suisse (Féminin)",
     "category": "identite"
   },
   {
@@ -1082,8 +1132,8 @@
     "category": "physiquemoral"
   },
   {
-    "pt": "Cabelo(s)",
-    "fr": "Cheveu(x)",
+    "pt": "Cabelos",
+    "fr": "Cheveux",
     "category": "physiquemoral"
   },
   {
