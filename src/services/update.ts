@@ -26,7 +26,7 @@ export async function checkForUpdates() {
 
 async function downloadWords() {
   const response = await fetch(
-    "https://raw.githubusercontent.com/toncompte/tonrepo/main/data/words.json"
+    "https://raw.githubusercontent.com/Renc-o/Portuguese-Trainer-App/refs/heads/main/src/data/words.json"
   );
 
   const words = await response.json();

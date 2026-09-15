@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import {
-    KeyboardAvoidingView,
-    Platform,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
-    useColorScheme,
+  KeyboardAvoidingView,
+  Platform,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
+  useColorScheme,
 } from "react-native";
 
 import { loadAll } from "../data/loadAll";
@@ -59,6 +59,16 @@ export default function App() {
     const load = async () => {
       const result = await loadAll();
       setData(result);
+    };
+
+    load();
+  }, []);
+
+  useEffect(() => {
+    const load = async () => {
+      const result = await loadAll();
+
+      setData(result);
       setShuffled(shuffle(result));
     };
 
@@ -91,7 +101,8 @@ export default function App() {
 
   const categories = [
     "touslesmots",
-    ...new Set(data.map((w) => w.category)),
+    ...[...new Set(data.map((w) => w.category))]
+      .sort((a, b) => a.localeCompare(b, "fr")),
   ];
 
   const changeCategory = (cat: string) => {
