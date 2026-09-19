@@ -58,15 +58,6 @@ export default function App() {
   useEffect(() => {
     const load = async () => {
       const result = await loadAll();
-      setData(result);
-    };
-
-    load();
-  }, []);
-
-  useEffect(() => {
-    const load = async () => {
-      const result = await loadAll();
 
       setData(result);
       setShuffled(shuffle(result));
@@ -110,8 +101,11 @@ export default function App() {
 
   const categories = [
     "touslesmots",
-    ...[...new Set(data.map((w) => w.category))]
-      .sort((a, b) => a.localeCompare(b, "fr")),
+    ...[...new Set(
+      data
+        .map((w) => w.category)
+        .filter((cat) => cat && cat !== "touslesmots")
+    )].sort((a, b) => a.localeCompare(b, "fr")),
   ];
 
   const changeCategory = (cat: string) => {
