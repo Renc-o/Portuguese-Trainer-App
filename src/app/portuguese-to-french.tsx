@@ -42,10 +42,23 @@ export default function App() {
   const categoryLabels = (() => {
     const labels: Record<string, string> = {
       touslesmots: "Tout",
-      banquedemots: "Banque de Mots",
-      corpshumain: "Corps Humain",
-      nombresordinaux: "Nombres Ordinaux",
-      physiquemoral: "Physique et Moral"
+      activite: "Activité",
+      adjectif: "Adjectif",
+      astronomie: "Astronomie",
+      banquedemots: "Banque de mots",
+      corpshumain: "Corps humain",
+      date: "Date",
+      famille: "Famille",
+      humeur: "Humeur",
+      identité: "Identité",
+      metiers: "Métiers",
+      nationalité: "Nationalité",
+      nombresordinaux: "Nombres ordinaux",
+      orientation: "Orientation",
+      temps: "Temps",
+      transport: "Transport",
+      verbe: "Verbe",
+      vetements: "Vêtements"
     };
     data.forEach((word) => {
       if (word.category && !labels[word.category]) {

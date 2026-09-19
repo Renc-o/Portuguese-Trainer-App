@@ -2,176 +2,421 @@
   {
     "pt": "Andar de bicicleta",
     "fr": "Faire du vélo",
-    "category": "activite"
+    "category": "activité"
   },
   {
     "pt": "Cantar",
     "fr": "Chanter",
-    "category": "activite"
+    "category": "activité"
   },
   {
     "pt": "Dançar",
     "fr": "Danser",
-    "category": "activite"
+    "category": "activité"
   },
   {
     "pt": "Desenhar",
     "fr": "Dessiner",
-    "category": "activite"
+    "category": "activité"
   },
   {
     "pt": "Ler",
     "fr": "Lire",
-    "category": "activite"
+    "category": "activité"
   },
   {
     "pt": "Passear",
     "fr": "Se promener",
-    "category": "activite"
+    "category": "activité"
   },
   {
     "pt": "Praticar desporto",
     "fr": "Faire du sport",
-    "category": "activite"
+    "category": "activité"
   },
   {
     "pt": "Ver televisão",
-    "fr": "Regarder la télévision",
-    "category": "activite"
+    "fr": "Regarder la télé",
+    "category": "activité"
   },
   {
     "pt": "Brincar",
-    "fr": ["S'amuser", "Jouer"],
-    "category": "activite"
+    "fr": "Jouer/s'amuser",
+    "category": "activité"
   },
   {
     "pt": "Jogar futebol",
     "fr": "Jouer au foot",
-    "category": "activite"
+    "category": "activité"
   },
   {
     "pt": "Tocar guitara",
     "fr": "Jouer de Ia guitare",
-    "category": "activite"
+    "category": "activité"
   },
   {
     "pt": "Tocar piano",
     "fr": "Jouer du piano",
-    "category": "activite"
+    "category": "activité"
+  },
+  {
+    "pt": "Arrogante",
+    "fr": "Arrogant",
+    "category": "adjectif"
+  },
+  {
+    "pt": "Calado",
+    "fr": "Silencieux",
+    "category": "adjectif"
+  },
+  {
+    "pt": "Desorganizado",
+    "fr": "Désorganisé",
+    "category": "adjectif"
+  },
+  {
+    "pt": "Estúpido",
+    "fr": "Stupide",
+    "category": "adjectif"
+  },
+  {
+    "pt": "Falador",
+    "fr": "Bavard",
+    "category": "adjectif"
+  },
+  {
+    "pt": "Humilde",
+    "fr": "Humble",
+    "category": "adjectif"
+  },
+  {
+    "pt": "Inteligente",
+    "fr": "Intelligent",
+    "category": "adjectif"
+  },
+  {
+    "pt": "Organizado",
+    "fr": "Organisé",
+    "category": "adjectif"
+  },
+  {
+    "pt": "Preguiçoso",
+    "fr": "Paresseux",
+    "category": "adjectif"
+  },
+  {
+    "pt": "Sério",
+    "fr": "Sérieux",
+    "category": "adjectif"
+  },
+  {
+    "pt": "Sociável",
+    "fr": "Sociable",
+    "category": "adjectif"
+  },
+  {
+    "pt": "Tímido",
+    "fr": "Timide",
+    "category": "adjectif"
+  },
+  {
+    "pt": "Trabalhador",
+    "fr": "Travailleur",
+    "category": "adjectif"
+  },
+  {
+    "pt": "Estrela",
+    "fr": "Étoile",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Planeta",
+    "fr": "Planète",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Universo",
+    "fr": "Univers",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Constelação",
+    "fr": "Constellation",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Sistema",
+    "fr": "Système",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Sol",
+    "fr": "Soleil",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Lua",
+    "fr": "Lune",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Astronomia",
+    "fr": "Astronomie",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Telescópio",
+    "fr": "Téléscope",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Satélite",
+    "fr": "Satellite",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Foguete",
+    "fr": "Fusée",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Telescópio",
+    "fr": "Téléscope",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Astonauta",
+    "fr": "Astronaute",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Meteorito",
+    "fr": "Météorite",
+    "category": "astronomie"
+  },
+  {
+    "pt": "Asteróide",
+    "fr": "Astéroïde",
+    "category": "astronomie"
   },
   {
     "pt": "Comprar",
     "fr": "Acheter",
-    "category": "verbe"
+    "category": "banquesdemots"
   },
   {
     "pt": "Estudar",
-    "fr": "Etudier",
-    "category": "verbe"
+    "fr": "Étudier",
+    "category": "banquesdemots"
   },
   {
     "pt": "Interessar-se",
-    "fr": "S'intéresser",
-    "category": "verbe"
+    "fr": "S’intéresser",
+    "category": "banquesdemots"
   },
   {
     "pt": "Morar",
     "fr": "Habiter",
-    "category": "verbe"
+    "category": "banquesdemots"
   },
   {
     "pt": "Trabalhar",
     "fr": "Travailler",
-    "category": "verbe"
+    "category": "banquesdemots"
   },
   {
     "pt": "Sim",
     "fr": "Oui",
-    "category": "banquedemots"
+    "category": "banquesdemots"
   },
   {
     "pt": "Não",
     "fr": "Non",
-    "category": "banquedemots"
+    "category": "banquesdemots"
   },
   {
     "pt": "Mas",
     "fr": "Plus",
-    "category": "banquedemots"
+    "category": "banquesdemots"
   },
   {
     "pt": "Muito",
     "fr": "Très, beaucoup",
-    "category": "banquedemots"
+    "category": "banquesdemots"
   },
   {
     "pt": "Também",
     "fr": "Aussi",
-    "category": "banquedemots"
+    "category": "banquesdemots"
   },
   {
     "pt": "Um pouco",
     "fr": "Un peu",
-    "category": "banquedemots"
+    "category": "banquesdemots"
   },
   {
-    "pt": "Chuver",
+    "pt": "Levantar-se",
+    "fr": "Se lever",
+    "category": "banquesdemots"
+  },
+  {
+    "pt": "Passar-se",
+    "fr": "Se passer",
+    "category": "banquesdemots"
+  },
+  {
+    "pt": "Situar-se",
+    "fr": "Se situer",
+    "category": "banquesdemots"
+  },
+  {
+    "pt": "Lembrar-se",
+    "fr": "se rappeler",
+    "category": "banquesdemots"
+  },
+  {
+    "pt": "Chuvar",
     "fr": "Pleuvoir",
-    "category": "verbe"
+    "category": "banquesdemots"
   },
   {
     "pt": "Morar",
     "fr": "Habiter",
-    "category": "verbe"
+    "category": "banquesdemots"
   },
   {
     "pt": "Sede",
     "fr": "Soif",
-    "category": "banquedemots"
+    "category": "banquesdemots"
   },
   {
     "pt": "Ou seja",
     "fr": "Ou plutôt",
-    "category": "banquedemots"
+    "category": "banquesdemots"
   },
   {
-    "pt": "Mais (do) que",
-    "fr": "Plus que",
-    "category": "comparaison"
+    "pt": "Jeito",
+    "fr": "Chemin",
+    "category": "banquesdemots"
   },
   {
-    "pt": "Menos (do) que",
-    "fr": "Moins que",
-    "category": "comparaison"
+    "pt": "Barba",
+    "fr": "Barbe",
+    "category": "corpshumain"
   },
   {
-    "pt": "Tão como",
-    "fr": "Autant que",
-    "category": "comparaison"
+    "pt": "Bigote",
+    "fr": "Moustache",
+    "category": "corpshumain"
   },
   {
-    "pt": "Melhor",
-    "fr": ["Meilleur", "Mieux"],
-    "category": "comparaison"
+    "pt": "Cara",
+    "fr": "Visage",
+    "category": "corpshumain"
   },
   {
-    "pt": "Pior",
-    "fr": "Pire",
-    "category": "comparaison"
+    "pt": "Cabelos",
+    "fr": "Cheveux",
+    "category": "corpshumain"
   },
   {
-    "pt": "Maior",
-    "fr": "Plus grand",
-    "category": "comparaison"
+    "pt": "Dentes",
+    "fr": "Dents",
+    "category": "corpshumain"
   },
   {
-    "pt": "Mais pequeno",
-    "fr": "Plus petit",
-    "category": "comparaison"
+    "pt": "Nariz",
+    "fr": "Nez",
+    "category": "corpshumain"
   },
   {
-    "pt": "Corpo",
-    "fr": "Corps",
+    "pt": "Olhos",
+    "fr": "Yeux",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Orelhas",
+    "fr": "Oreilles",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Alto/Grande",
+    "fr": "Grand",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Baixo/Pequeno",
+    "fr": "Petit",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Magro",
+    "fr": "Mince/Maigre",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Gordo",
+    "fr": "Gros",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Bonito",
+    "fr": "Beau",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Feio",
+    "fr": "Moche",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Jovem",
+    "fr": "Jeune",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Velho",
+    "fr": "Vieux",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Comprido",
+    "fr": "Long",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Curto",
+    "fr": "Court",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Encaracolado",
+    "fr": "Bouclé",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Liso",
+    "fr": "Lisse",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Castanho",
+    "fr": "Châtain/brun",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Loiro",
+    "fr": "Blond",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Ruivo",
+    "fr": "Roux",
+    "category": "corpshumain"
+  },
+  {
+    "pt": "Corps",
+    "fr": "Corpo",
     "category": "corpshumain"
   },
   {
@@ -248,56 +493,6 @@
     "pt": "Pé",
     "fr": "Pied",
     "category": "corpshumain"
-  },
-  {
-    "pt": "Amarelo",
-    "fr": "Jaune",
-    "category": "couleurs"
-  },
-  {
-    "pt": "Azul",
-    "fr": "Bleu",
-    "category": "couleurs"
-  },
-  {
-    "pt": "Branco",
-    "fr": "Blanc",
-    "category": "couleurs"
-  },
-  {
-    "pt": "Castanho",
-    "fr": "Marron",
-    "category": "couleurs"
-  },
-  {
-    "pt": "Cinzento",
-    "fr": "Gris",
-    "category": "couleurs"
-  },
-  {
-    "pt": "Larenja",
-    "fr": "Orange",
-    "category": "couleurs"
-  },
-  {
-    "pt": "Rosa",
-    "fr": "Rose",
-    "category": "couleurs"
-  },
-  {
-    "pt": "Preto",
-    "fr": "Noir",
-    "category": "couleurs"
-  },
-  {
-    "pt": "Verde",
-    "fr": "Vert",
-    "category": "couleurs"
-  },
-  {
-    "pt": "Vermelho",
-    "fr": "Rouge",
-    "category": "couleurs"
   },
   {
     "pt": "Segunda-feira",
@@ -395,18 +590,18 @@
     "category": "date"
   },
   {
-    "pt": "Avô",
-    "fr": "Grand-père",
+    "pt": "Grand-père",
+    "fr": "Avô",
     "category": "famille"
   },
   {
-    "pt": "Avó",
-    "fr": "Grand-mère",
+    "pt": "Grand-mère",
+    "fr": "Avó",
     "category": "famille"
   },
   {
-    "pt": "Avós",
-    "fr": "Grands-parents",
+    "pt": "Grands-parents",
+    "fr": "Avós",
     "category": "famille"
   },
   {
@@ -456,7 +651,7 @@
   },
   {
     "pt": "Irmãos",
-    "fr": "Frères et soeurs",
+    "fr": "Frères et sœurs",
     "category": "famille"
   },
   {
@@ -500,11 +695,6 @@
     "category": "famille"
   },
   {
-    "pt": "Primos",
-    "fr": "Cousins et cousines",
-    "category": "famille"
-  },
-  {
     "pt": "Sobrinho",
     "fr": "Neveu",
     "category": "famille"
@@ -529,7 +719,6 @@
     "fr": "Oncle",
     "category": "famille"
   },
-
   {
     "pt": "Tia",
     "fr": "Tante",
@@ -656,349 +845,314 @@
     "category": "humeur"
   },
   {
-    "pt": "Raiva",
-    "fr": "Colère",
-    "category": "humeur"
-  },
-  {
     "pt": "Apelido",
-    "fr": "Nom",
-    "category": "identite"
+    "fr": "Nom de famille",
+    "category": "identité"
   },
   {
-    "pt": "Nascimento",
-    "fr": "Naissance",
-    "category": "identite"
+    "pt": "Data de nascimento",
+    "fr": "Date de naissance",
+    "category": "identité"
+  },
+  {
+    "pt": "Local de nascimento",
+    "fr": "Lieu de naissance",
+    "category": "identité"
   },
   {
     "pt": "Idade",
     "fr": "Age",
-    "category": "identite"
+    "category": "identité"
   },
   {
     "pt": "Morada",
     "fr": "Adresse",
-    "category": "identite"
+    "category": "identité"
   },
   {
     "pt": "Nome",
     "fr": "Prénom",
-    "category": "identite"
+    "category": "identité"
   },
   {
     "pt": "Cadaso",
     "fr": "Marié",
-    "category": "identite"
+    "category": "identité"
+  },
+  {
+    "pt": "Casada",
+    "fr": "Mariée",
+    "category": "identité"
   },
   {
     "pt": "Marido",
     "fr": "Mari",
-    "category": "identite"
+    "category": "identité"
   },
   {
     "pt": "Mulher",
     "fr": "Femme",
-    "category": "identite"
+    "category": "identité"
   },
   {
     "pt": "Namorado",
     "fr": "Amoureux",
-    "category": "identite"
+    "category": "identité"
   },
   {
     "pt": "Namorada",
     "fr": "Amoureuse",
-    "category": "identite"
+    "category": "identité"
   },
   {
-    "pt": "Solteiro",
-    "fr": "Célibataire (Masculin)",
-    "category": "identite"
-  },
-  {
-    "pt": "Solteira",
-    "fr": "Célibataire (Féminin)",
-    "category": "identite"
-  },
-  {
-    "pt": "Profissão",
-    "fr": "Métier",
-    "category": "identite"
-  },
-  {
-    "pt": "Enfermeiro",
-    "fr": "Infirmier",
-    "category": "identite"
-  },
-  {
-    "pt": "Enfermeira",
-    "fr": "Infirmiere",
-    "category": "identite"
-  },
-  {
-    "pt": "Estudante",
-    "fr": "Etudiant",
-    "category": "identite"
-  },
-  {
-    "pt": "Argelino",
-    "fr": "Algérien",
-    "category": "identite"
-  },
-  {
-    "pt": "Argelina",
-    "fr": "Algérienne",
-    "category": "identite"
-  },
-  {
-    "pt": "Alemão",
-    "fr": "Allemand",
-    "category": "identite"
-  },
-  {
-    "pt": "Alemã",
-    "fr": "Allemande",
-    "category": "identite"
-  },
-  {
-    "pt": "Angolano",
-    "fr": "Angolais",
-    "category": "identite"
-  },
-  {
-    "pt": "Angolana",
-    "fr": "Angolaise",
-    "category": "identite"
-  },
-  {
-    "pt": "Belga",
-    "fr": "Belge",
-    "category": "identite"
-  },
-  {
-    "pt": "Brasileiro",
-    "fr": "Brésilien",
-    "category": "identite"
-  },
-  {
-    "pt": "Brasileira",
-    "fr": "Brésilienne",
-    "category": "identite"
-  },
-  {
-    "pt": "Cabo-verdiano",
-    "fr": "Cap-verdien",
-    "category": "identite"
-  },
-  {
-    "pt": "Cabo-verdiana",
-    "fr": "Cap-verdienne",
-    "category": "identite"
-  },
-  {
-    "pt": "Espanhol",
-    "fr": "Espagnol",
-    "category": "identite"
-  },
-  {
-    "pt": "Espanhola",
-    "fr": "Espagnole",
-    "category": "identite"
-  },
-  {
-    "pt": "Francês",
-    "fr": "Français",
-    "category": "identite"
-  },
-  {
-    "pt": "Francesa",
-    "fr": "Française",
-    "category": "identite"
-  },
-  {
-    "pt": "Inglês",
-    "fr": "Anglais",
-    "category": "identite"
-  },
-  {
-    "pt": "Inglesa",
-    "fr": "Anglaise",
-    "category": "identite"
-  },
-  {
-    "pt": "Italiano",
-    "fr": "Italien",
-    "category": "identite"
-  },
-  {
-    "pt": "Italiana",
-    "fr": "Italienne",
-    "category": "identite"
-  },
-  {
-    "pt": "Japonês",
-    "fr": "Japonais",
-    "category": "identite"
-  },
-  {
-    "pt": "Japonesa",
-    "fr": "Japonaise",
-    "category": "identite"
-  },
-  {
-    "pt": "Moçambicano",
-    "fr": "Mozambicain",
-    "category": "identite"
-  },
-  {
-    "pt": "Moçambicana",
-    "fr": "Mozambicaine",
-    "category": "identite"
-  },
-  {
-    "pt": "Português",
-    "fr": "Portugais",
-    "category": "identite"
-  },
-  {
-    "pt": "Portuguesa",
-    "fr": "Portugaise",
-    "category": "identite"
-  },
-  {
-    "pt": "Suiço",
-    "fr": "Suisse (Masculin)",
-    "category": "identite"
-  },
-  {
-    "pt": "Suiça",
-    "fr": "Suisse (Féminin)",
-    "category": "identite"
+    "pt": "Solteiro(a)",
+    "fr": "Célibataire",
+    "category": "identité"
   },
   {
     "pt": "Agricultor",
     "fr": "Agriculteur",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Arquiteto",
     "fr": "Architecte",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Advogado",
     "fr": "Avocat",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Bombeiro",
     "fr": "Pompier",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Cantor",
     "fr": "Chanteur",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Comerciante",
     "fr": "Commerçant",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Cozinheiro",
     "fr": "Cuisinier",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Empregado de mesa",
     "fr": "Serveur",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Enfermeiro",
     "fr": "Infirmier",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Engenheiro",
     "fr": "Ingénieur",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Escritor",
-    "fr": "Ecrivian",
-    "category": "metiers"
+    "fr": "Ecrivain",
+    "category": "métiers"
   },
   {
     "pt": "Estilista",
     "fr": "Styliste",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Estudante",
-    "fr": "Etudiant",
-    "category": "metiers"
+    "fr": "Étudiant",
+    "category": "métiers"
   },
   {
     "pt": "Fotógrafo",
     "fr": "Photographe",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Futebolista",
     "fr": "Footballeur",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Jornalista",
     "fr": "Journaliste",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Mecânico",
     "fr": "Mécanicien",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Médico",
     "fr": "Médecin",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Padeiro",
     "fr": "Boulanger",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Pintor",
     "fr": "Peintre",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Pianista",
     "fr": "Pianiste",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Polícia",
     "fr": "Policier",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Professor",
     "fr": "Professeur",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Secretário",
     "fr": "Secrétaire",
-    "category": "metiers"
+    "category": "métiers"
   },
   {
     "pt": "Vendedor",
     "fr": "Vendeur",
-    "category": "metiers"
+    "category": "métiers"
+  },
+  {
+    "pt": "Profissão",
+    "fr": "Métier",
+    "category": "métiers"
+  },
+  {
+    "pt": "Profissöes",
+    "fr": "Métiers",
+    "category": "métiers"
+  },
+  {
+    "pt": "Enfermeiro",
+    "fr": "Infirmier",
+    "category": "métiers"
+  },
+  {
+    "pt": "Enfermeira",
+    "fr": "Infirmière",
+    "category": "métiers"
+  },
+  {
+    "pt": "Estudante",
+    "fr": "Étudiant",
+    "category": "métiers"
+  },
+  {
+    "pt": "Alemão",
+    "fr": "Allemand",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Alemã",
+    "fr": "Allemande",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Belga",
+    "fr": "Belge",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Brasileiro",
+    "fr": "Brésilien",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Brasileira",
+    "fr": "Brésilienne",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Espanhol",
+    "fr": "Espagnol",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Espanhola",
+    "fr": "Espagnole",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Francês",
+    "fr": "Français",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Francesa",
+    "fr": "Française",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Inglês",
+    "fr": "Anglais",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Inglesa",
+    "fr": "Anglaise",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Italiano",
+    "fr": "Italien",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Italiana",
+    "fr": "Italienne",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Japonês",
+    "fr": "Japonais",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Japonesa",
+    "fr": "Japonaise",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Português",
+    "fr": "Portugais",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Portuguesa",
+    "fr": "Portugaise",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Suiço",
+    "fr": "Suisse",
+    "category": "nationalité"
+  },
+  {
+    "pt": "Suiça",
+    "fr": "Suisse",
+    "category": "nationalité"
   },
   {
     "pt": "Primeiro",
@@ -1061,32 +1215,32 @@
     "category": "orientation"
   },
   {
-    "pt": "Ao pé de",
-    "fr": "Au pied de",
-    "category": "orientation"
-  },
-  {
     "pt": "Ao lado de",
     "fr": "À coté de",
     "category": "orientation"
   },
   {
-    "pt": "Atràs de",
+    "pt": "Ao pé de",
+    "fr": "Au pied de",
+    "category": "orientation"
+  },
+  {
+    "pt": "Atrás",
     "fr": "Derrière",
     "category": "orientation"
   },
   {
-    "pt": "Debaixo de",
-    "fr": "En dessous de",
+    "pt": "Debaixo",
+    "fr": "En dessous de / Sous",
     "category": "orientation"
   },
   {
-    "pt": "Dentro de",
-    "fr": "A l'intérieur de",
+    "pt": "Dentro",
+    "fr": "A l'intérieur",
     "category": "orientation"
   },
   {
-    "pt": "Em frente de",
+    "pt": "Em frente de / Diante de",
     "fr": "Devant",
     "category": "orientation"
   },
@@ -1114,191 +1268,6 @@
     "pt": "Perto de",
     "fr": "Près de",
     "category": "orientation"
-  },
-  {
-    "pt": "Barba",
-    "fr": "Barbe",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Bigote",
-    "fr": "Moustache",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Cara",
-    "fr": "Visage",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Cabelos",
-    "fr": "Cheveux",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Dentes",
-    "fr": "Dents",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Nariz",
-    "fr": "Nez",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Olhos",
-    "fr": "Yeux",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Orelhas",
-    "fr": "Oreilles",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Alto",
-    "fr": "Grand",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Pequeno",
-    "fr": "Petit",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Magro",
-    "fr": "Maigre",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Gordo",
-    "fr": "Gros",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Bonito",
-    "fr": "Beau",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Feio",
-    "fr": "Moche",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Jovem",
-    "fr": "Jeune",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Velho",
-    "fr": "Vieux",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Comprido",
-    "fr": "Long",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Curto",
-    "fr": "Court",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Encaracolado",
-    "fr": "Bouclé",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Liso",
-    "fr": "Lisse",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Castanho",
-    "fr": "Brun",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Loiro",
-    "fr": "Blond",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Ruivo",
-    "fr": "Roux",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Usar roupa",
-    "fr": "Porter des vêtements",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Arrogante",
-    "fr": "Arrogant",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Calado",
-    "fr": "Silencieux",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Desorganizado",
-    "fr": "Désorganisé",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Estùpido",
-    "fr": "Stupide",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Falador",
-    "fr": "Bavard",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Humilde",
-    "fr": "Humble",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Inteligente",
-    "fr": "Intelligent",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Organizado",
-    "fr": "Organisé",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Preguiçoso",
-    "fr": "Paresseux",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Sério",
-    "fr": "Sérieux",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Sociàvel",
-    "fr": "Sociable",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "tímido",
-    "fr": "Timide",
-    "category": "physiquemoral"
-  },
-  {
-    "pt": "Trabalhador",
-    "fr": "Travailleur",
-    "category": "physiquemoral"
   },
   {
     "pt": "Cedo",
@@ -1336,91 +1305,6 @@
     "category": "temps"
   },
   {
-    "pt": "Camise",
-    "fr": "Chemise",
-    "category": "vetements"
-  },
-  {
-    "pt": "Camiseta",
-    "fr": "Tshirt",
-    "category": "vetements"
-  },
-  {
-    "pt": "Calças",
-    "fr": "Pantalon",
-    "category": "vetements"
-  },
-  {
-    "pt": "Meias",
-    "fr": "Chaussettes",
-    "category": "vetements"
-  },
-  {
-    "pt": "Sapatos",
-    "fr": "Chaussures",
-    "category": "vetements"
-  },
-  {
-    "pt": "Boné",
-    "fr": "Casquette",
-    "category": "vetements"
-  },
-  {
-    "pt": "Gorro",
-    "fr": "Bonnet",
-    "category": "vetements"
-  },
-  {
-    "pt": "Casaco",
-    "fr": "Manteau",
-    "category": "vetements"
-  },
-  {
-    "pt": "Camise",
-    "fr": "Chemise",
-    "category": "vetements"
-  },
-  {
-    "pt": "Relógio",
-    "fr": "Montre",
-    "category": "vetements"
-  },
-  {
-    "pt": "Pulseira",
-    "fr": "Bracelet",
-    "category": "vetements"
-  },
-  {
-    "pt": "Joias",
-    "fr": "Bijoux",
-    "category": "vetements"
-  },
-  {
-    "pt": "Anéis",
-    "fr": "Bagues",
-    "category": "vetements"
-  },
-  {
-    "pt": "Cinto",
-    "fr": "Ceinture",
-    "category": "vetements"
-  },
-  {
-    "pt": "Cueca",
-    "fr": "Caleçon",
-    "category": "vetements"
-  },
-  {
-    "pt": "Óculos",
-    "fr": "Lunettes",
-    "category": "vetements"
-  },
-  {
-    "pt": "Jeito",
-    "fr": "Chemin",
-    "category": "banquedemots"
-  },
-  {
     "pt": "Carro",
     "fr": "Voiture",
     "category": "transport"
@@ -1447,7 +1331,7 @@
   },
   {
     "pt": "Skate",
-    "fr": "SKateboard",
+    "fr": "Skateboard",
     "category": "transport"
   },
   {
@@ -1499,6 +1383,31 @@
     "pt": "Caminho",
     "fr": "Chemin",
     "category": "transport"
+  },
+  {
+    "pt": "Comprar",
+    "fr": "Acheter",
+    "category": "verbe"
+  },
+  {
+    "pt": "Estudar",
+    "fr": "Etudier",
+    "category": "verbe"
+  },
+  {
+    "pt": "Interessar-se",
+    "fr": "S’intéresser",
+    "category": "verbe"
+  },
+  {
+    "pt": "Morar",
+    "fr": "Habiter",
+    "category": "verbe"
+  },
+  {
+    "pt": "Trabalhar",
+    "fr": "Travailler",
+    "category": "verbe"
   },
   {
     "pt": "Ser",
@@ -1581,23 +1490,8 @@
     "category": "verbe"
   },
   {
-    "pt": "Dever",
-    "fr": "Devoir",
-    "category": "verbe"
-  },
-  {
     "pt": "Calar-se",
     "fr": "Se taire",
-    "category": "verbe"
-  },
-  {
-    "pt": "Ter",
-    "fr": "Avoir",
-    "category": "verbe"
-  },
-  {
-    "pt": "Passar-se",
-    "fr": "Se passer",
     "category": "verbe"
   },
   {
@@ -1623,11 +1517,6 @@
   {
     "pt": "Mudar",
     "fr": "Changer",
-    "category": "verbe"
-  },
-  {
-    "pt": "Trazer",
-    "fr": "Amener",
     "category": "verbe"
   },
   {
@@ -1681,83 +1570,78 @@
     "category": "verbe"
   },
   {
-    "pt": "Estrela",
-    "fr": "Étoile",
-    "category": "astronomie"
+    "pt": "Camise",
+    "fr": "Chemise",
+    "category": "vêtements"
   },
   {
-    "pt": "Planeta",
-    "fr": "Planète",
-    "category": "astronomie"
+    "pt": "Camiseta",
+    "fr": "T-shirt",
+    "category": "vêtements"
   },
   {
-    "pt": "Universo",
-    "fr": "Univers",
-    "category": "astronomie"
+    "pt": "Calças",
+    "fr": "Pantalon",
+    "category": "vêtements"
   },
   {
-    "pt": "Constelação",
-    "fr": "Constellation",
-    "category": "astronomie"
+    "pt": "Meias",
+    "fr": "Chaussettes",
+    "category": "vêtements"
   },
   {
-    "pt": "Sistema",
-    "fr": "Système",
-    "category": "astronomie"
+    "pt": "Sapatos",
+    "fr": "Chaussures",
+    "category": "vêtements"
   },
   {
-    "pt": "Sol",
-    "fr": "Soleil",
-    "category": "astronomie"
+    "pt": "Boné",
+    "fr": "Casquette",
+    "category": "vêtements"
   },
   {
-    "pt": "Lua",
-    "fr": "Lune",
-    "category": "astronomie"
+    "pt": "Gorro",
+    "fr": "Bonnet",
+    "category": "vêtements"
   },
   {
-    "pt": "Astronomia",
-    "fr": "Astronomie",
-    "category": "astronomie"
+    "pt": "Casaco",
+    "fr": "Manteau",
+    "category": "vêtements"
   },
   {
-    "pt": "Telescópio",
-    "fr": "Téléscope",
-    "category": "astronomie"
+    "pt": "Relógio",
+    "fr": "Montre",
+    "category": "vêtements"
   },
   {
-    "pt": "Satélite",
-    "fr": "Satellite",
-    "category": "astronomie"
+    "pt": "Pulseira",
+    "fr": "Bracelet",
+    "category": "vêtements"
   },
   {
-    "pt": "Foguete",
-    "fr": "Fusée",
-    "category": "astronomie"
+    "pt": "Joias",
+    "fr": "Bijoux",
+    "category": "vêtements"
   },
   {
-    "pt": "Telescópio",
-    "fr": "Téléscope",
-    "category": "astronomie"
+    "pt": "Anéis",
+    "fr": "Bagues",
+    "category": "vêtements"
   },
   {
-    "pt": "Astonauta",
-    "fr": "Astronaute",
-    "category": "metiers"
+    "pt": "Cinto",
+    "fr": "Ceinture",
+    "category": "vêtements"
   },
   {
-    "pt": "Meteorito",
-    "fr": "Météorite",
-    "category": "astronomie"
+    "pt": "Cueca",
+    "fr": "Caleçon",
+    "category": "vêtements"
   },
   {
-    "pt": "Asteróide",
-    "fr": "Astéroïde",
-    "category": "astronomie"
-  },
-  {
-    "pt": "Jeito",
-    "fr": "Chemin",
-    "category": "banquedemots"
+    "pt": "Óculos",
+    "fr": "Lunettes",
+    "category": "vêtements"
   }
 ]
